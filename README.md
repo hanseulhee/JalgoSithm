@@ -12,3 +12,8 @@ split는 문자열만 가능하다. 정수형을 [toString](https://developer.mo
 - [짝수와 홀수](../master/Programmers/짝수와홀수/index.js)
 
 if문으로 짝수 홀수를 구분하였고 이에 맞는 메세지를 반환시켰다.
+
+#### 2021.08.18
+- [평균 구하기](../master/Programmers/평균구하기/index.js)
+
+[reduce](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce)를 이용하여 배열의 합을 구하고 배열의 길이로 나누어 평균을 구했다. reduce는 배열의 각 요소에 대해 주어진 reducer 함수를 실행하고, 하나의 결과값을 반환한다.
