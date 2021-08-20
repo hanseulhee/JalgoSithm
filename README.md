@@ -23,3 +23,8 @@ if문으로 짝수 홀수를 구분하였고 이에 맞는 메세지를 반환�
 - [핸드폰 번호 가리기](../master/Programmers/핸드폰번호가리기/index.js)
 
 [repeat](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String/repeat)메소드를 이용해 문자열 길이의 4를 뺀 만큼 *를 반복했고 [slice](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String/slice)로 뒤에서 4자리 문자열을 가져와 반환하였다.
+
+#### 2021.08.20
+- [정수 내림차순으로 배치하기](../master/Programmers/정수내림차순으로배치하기/index.js)
+
+[Number](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Number)은 숫자 형식으로 변환하는 함수다. 이를 이용해 마지막에 문자형이 아닌 정수형으로 반환하였다. toString로 정수형을 문자형으로 바꿔주고 [split]()로 하나씩 잘라 배열로 만들었다. [sort](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)로 정렬했고 reverse로 내림차순 정혛을 하였다.
