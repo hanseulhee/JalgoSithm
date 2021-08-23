@@ -39,3 +39,10 @@ repeat 메소드를 이용해 가로 별을 찍었고 마지막에 줄 바꿈도
 - [나누어 떨어지는 숫자 배열](../master/Programmers/나누어떨어지는숫자배열/index.js)
 
 [filter](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)를 이용해 arr 배열의 요소가 divisor로 나누어떨어지는지 계산해 새로운 배열로 반환하였다. 새로 반환한 배열을 [sort](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)로 오름차순 정렬했다. [삼항 조건 연산자](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)를 이용해 0이 아닐 경우 -1을 반환하도록 하였다.
+
+
+#### 2021.08.23
+- [문자열 내림차순으로 배치하기](../master/Programmers/문자열내림차순으로배치하기/index.js)
+
+문자를 큰것부터 작은 순으로 정렬하는 문제, sort와 reverse 메소드를 이용해 내림차순으로 정렬했고 join으로 문자열로 바꾸어 반환하였다. sort 메소드는 대문자 소문자 별로 따로 정렬시킨다.
+
