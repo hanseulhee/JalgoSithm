@@ -69,3 +69,11 @@ repeat 메소드를 이용해 가로 별을 찍었고 마지막에 줄 바꿈도
 
 for문을 이용해 count의 길이만큼 i를 price에 곱해 배열에 push하였다. sum 변수에 reduce로 원소들을 더했다. 이후 if문을 이용해 돈이 sum 보다 많을 경우와 아닐 경우를 구분해 반환하였다. 
 +[Math.abs](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Math/abs)함수는 주어진 숫자의 절대값을 반환한다.
+
+
+#### 2021.08.27
+
+- [수박수박수박수박수박수?](../master/Programmers/수박(문자열길이)/index.js)
+
+[substring](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String/substring) 메소드를 이용해 인덱스 0 부터 n까지 문자열을 반환하도록 하였고 repeat 메소드를 이용해 문자열을 반복시켰다.
+
