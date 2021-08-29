@@ -83,4 +83,12 @@ for문을 이용해 count의 길이만큼 i를 price에 곱해 배열에 push하
 - [두 정수 사이의 합](../master/Programmers/두정수사이의합/index.js)
 
 등차수열의 합 공식을 이용하였다. 등차수열의 합 공식 : S = (∣a−b∣+1) ∗ (a+b) / 2
+
 절대값을 반환해주는 Math.abs 함수를 이용하여 풀었다.
+
+
+#### 2021.08.29
+
+- [서울에서 김서방 찾기](../master/Programmers/서울에서김서방찾기/index.js)
+
+[indexOf](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf)를 이용해 배열에서 "Kim"이 어디있는지 찾았고 연산자 + 를 이용해 문자열을 연결해주었다.
