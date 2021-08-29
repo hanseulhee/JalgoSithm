@@ -92,3 +92,11 @@ for문을 이용해 count의 길이만큼 i를 price에 곱해 배열에 push하
 - [서울에서 김서방 찾기](../master/Programmers/서울에서김서방찾기/index.js)
 
 [indexOf](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf)를 이용해 배열에서 "Kim"이 어디있는지 찾았고 연산자 + 를 이용해 문자열을 연결해주었다.
+
+
+#### 2021.08.30
+
+- [같은 숫자는 싫어](../master/Programmers/같은숫자는싫어/index.js)
+
+빈 배열을 만들고 빈 배열에 arr 배열 값을 넣을 때마다 중복된 값인지 확인하는 코드를 짜려 했지만 어려웠다 ... 
+[filter](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/filter) 메소드를 이용해 현재 인덱스의 요소와 다음 인덱스의 요소가 다르면 새로운 배열에 추가해 새로운 배열의 형태로 반환하였다.
