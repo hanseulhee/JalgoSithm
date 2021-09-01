@@ -67,16 +67,13 @@ repeat 메소드를 이용해 가로 별을 찍었고 마지막에 줄 바꿈도
 
 - [부족한 금액 계산하기](../master/Programmers/부족한금액계산하기/index.js)
 
-for문을 이용해 count의 길이만큼 i를 price에 곱해 배열에 push하였다. sum 변수에 reduce로 원소들을 더했다. 이후 if문을 이용해 돈이 sum 보다 많을 경우와 아닐 경우를 구분해 반환하였다. 
-+[Math.abs](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Math/abs)함수는 주어진 숫자의 절대값을 반환한다.
-
+for문을 이용해 count의 길이만큼 i를 price에 곱해 배열에 push하였다. sum 변수에 reduce로 원소들을 더했다. 이후 if문을 이용해 돈이 sum 보다 많을 경우와 아닐 경우를 구분해 반환하였다. +[Math.abs](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Math/abs)함수는 주어진 숫자의 절대값을 반환한다.
 
 #### 2021.08.27
 
-- [수박수박수박수박수박수?](../master/Programmers/수박(문자열길이)/index.js)
+- [수박수박수박수박수박수?](<../master/Programmers/수박(문자열길이)/index.js>)
 
 [substring](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String/substring) 메소드를 이용해 인덱스 0 부터 n까지 문자열을 반환하도록 하였고 repeat 메소드를 이용해 문자열을 반복시켰다.
-
 
 #### 2021.08.28
 
@@ -86,24 +83,27 @@ for문을 이용해 count의 길이만큼 i를 price에 곱해 배열에 push하
 
 절대값을 반환해주는 Math.abs 함수를 이용하여 풀었다.
 
-
 #### 2021.08.29
 
 - [서울에서 김서방 찾기](../master/Programmers/서울에서김서방찾기/index.js)
 
 [indexOf](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf)를 이용해 배열에서 "Kim"이 어디있는지 찾았고 연산자 + 를 이용해 문자열을 연결해주었다.
 
-
 #### 2021.08.30
 
 - [같은 숫자는 싫어](../master/Programmers/같은숫자는싫어/index.js)
 
-빈 배열을 만들고 빈 배열에 arr 배열 값을 넣을 때마다 중복된 값인지 확인하는 코드를 짜려 했지만 어려웠다 ... 
+빈 배열을 만들고 빈 배열에 arr 배열 값을 넣을 때마다 중복된 값인지 확인하는 코드를 짜려 했지만 어려웠다 ...
 [filter](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/filter) 메소드를 이용해 현재 인덱스의 요소와 다음 인덱스의 요소가 다르면 새로운 배열에 추가해 새로운 배열의 형태로 반환하였다.
-
 
 #### 2021.08.31
 
 - [가운데 글자 가져오기](../master/Programmers/가운데글자가져오기/index.js)
 
 삼항연산자를 이용해 길이가 짝수일 경우 홀수일 경우를 나누어 slice로 계산해주었다. [Destructuring](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)을 이용해 코드의 가독성을 높였다.
+
+#### 2021.09.01
+
+- [콜라츠 추측](../master/Programmers/콜라츠추측/index.js)
+
+주어진 변수 n을 tempN에 할당 후, while문을 이용해 tempN이 1이될 때 까지 반복하도록 하였다. 삼항연산자를 이용해 짝수, 홀수의 경우를 나누고 while을 돌면서 count 변수에 1을 더해주었다. 만약 count가 500이 넘으면 -1을 반환하도록 하였다.
