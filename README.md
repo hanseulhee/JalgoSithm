@@ -107,3 +107,9 @@ for문을 이용해 count의 길이만큼 i를 price에 곱해 배열에 push하
 - [콜라츠 추측](../master/Programmers/콜라츠추측/index.js)
 
 주어진 변수 n을 tempN에 할당 후, while문을 이용해 tempN이 1이될 때 까지 반복하도록 하였다. 삼항연산자를 이용해 짝수, 홀수의 경우를 나누고 while을 돌면서 count 변수에 1을 더해주었다. 만약 count가 500이 넘으면 -1을 반환하도록 하였다.
+
+#### 2021.09.02
+
+- [약수의 합](../master/Programmers/약수의합/index.js)
+
+for문을 이용해 입력 값 안에서 if문으로 약수인지 판별하였고 약수일 경우 변수 answer에 더해주었다.
