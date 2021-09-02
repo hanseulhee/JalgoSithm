@@ -113,3 +113,9 @@ for문을 이용해 count의 길이만큼 i를 price에 곱해 배열에 push하
 - [약수의 합](../master/Programmers/약수의합/index.js)
 
 for문을 이용해 입력 값 안에서 if문으로 약수인지 판별하였고 약수일 경우 변수 answer에 더해주었다.
+
+
+
+#### 2021.09.03
+
+- [](../master/Programmers//index.js)
