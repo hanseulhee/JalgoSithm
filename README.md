@@ -114,8 +114,8 @@ for문을 이용해 count의 길이만큼 i를 price에 곱해 배열에 push하
 
 for문을 이용해 입력 값 안에서 if문으로 약수인지 판별하였고 약수일 경우 변수 answer에 더해주었다.
 
-
-
 #### 2021.09.03
 
-- [](../master/Programmers//index.js)
+- [문자열 내 p와 y의 개수](../master/Programmers/문자열내p와y의개수/index.js)
+
+[toLowerCase](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase)메소드를 이용해 문자열을 소문자로 변환하였고 split로 문자열을 잘라 "p"와 "y"의 길이를 각각 구했다. 삼항연산자를 이용해 두 변수가 같을 경우 true, 이외의 경우는 false를 반환하였다.
