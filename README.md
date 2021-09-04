@@ -119,3 +119,12 @@ for문을 이용해 입력 값 안에서 if문으로 약수인지 판별하였�
 - [문자열 내 p와 y의 개수](../master/Programmers/문자열내p와y의개수/index.js)
 
 [toLowerCase](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase)메소드를 이용해 문자열을 소문자로 변환하였고 split로 문자열을 잘라 "p"와 "y"의 길이를 각각 구했다. 삼항연산자를 이용해 두 변수가 같을 경우 true, 이외의 경우는 false를 반환하였다.
+
+
+
+  
+#### 2021.09.04
+
+- [소수 찾기](../master/Programmers/소수찾기/index.js)
+
+에라토스테네스의 체를 이용해 풀었다. 1은 소수가 아니기 때문에 [shift](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/shift)를 이용해 제거하였다.
