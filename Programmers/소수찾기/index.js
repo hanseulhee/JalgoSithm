@@ -1,18 +1,14 @@
 const solution = (n) => {
-  let arr = [];
-  const tempN = n;
-  for (let i = 1; i <= tempN; i++) {
+  const isPrime = Array(n + 1).fill(true);
+  const arr = [];
+  for (let i = 2; i < n + 1; i++) {
+    if (!isPrime[i]) continue;
     arr.push(i);
-  }
-  for (let i = 1; i * i < tempN; i++) {
-    if (arr[i]) {
-      let num = arr[i];
-      for (let j = num * num; j <= tempN; j += num) {
-        arr[j - 1] = 0;
-      }
+
+    for (let j = i + i; j < n + 1; j += i) {
+      isPrime[j] = false;
     }
   }
-  let answer = arr.filter((number) => number);
-  answer.shift();
-  return answer.length;
+  return arr.length;
 };
+

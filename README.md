@@ -127,4 +127,12 @@ for문을 이용해 입력 값 안에서 if문으로 약수인지 판별하였�
 
 - [소수 찾기](../master/Programmers/소수찾기/index.js)
 
-에라토스테네스의 체를 이용해 풀었다. 1은 소수가 아니기 때문에 [shift](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/shift)를 이용해 제거하였다.
+에라토스테네스의 체를 이용해 풀었다. if문과 for문을 이용해 소수일 경우 배열에 추가, 아닐 경우 false로 설정하였다. 
+
+
+
+#### 2021.09.05
+
+- [자연수 뒤집어 배열로 만들기](../master/Programmers/자연수뒤집어배열로만들기/index.js)
+
+toString을 이용해 문자열로 바꿔주었고 split로 배열을 만들었다. reverse로 배열을 뒤집었고 map을 이용햐 정수형으로 변환 후 반환하였다.
