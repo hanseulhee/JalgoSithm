@@ -136,3 +136,12 @@ for문을 이용해 입력 값 안에서 if문으로 약수인지 판별하였�
 - [자연수 뒤집어 배열로 만들기](../master/Programmers/자연수뒤집어배열로만들기/index.js)
 
 toString을 이용해 문자열로 바꿔주었고 split로 배열을 만들었다. reverse로 배열을 뒤집었고 map을 이용햐 정수형으로 변환 후 반환하였다.
+
+
+#### 2021.09.06
+
+- [2016년](../master/Programmers/2016년/index.js)
+
+2016년의 월마다의 일 수를 month 배열에 넣었고, 2016년의 1월 1일이 금요일이기 때문에 day 배열에 금요일을 제일 앞에 넣었다. a달 전달까지의 일자를 모두 더하고 b-1의 일자까지 더해주어 총 일 수를 구했다. 총 일 수에 7로 나눈 나머지를 구해 day 배열에서 요일을 찾아 반환하였다.
+
+[Date](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Date)객체를 이용해 풀 수도 있다.
