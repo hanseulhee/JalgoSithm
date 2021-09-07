@@ -145,3 +145,11 @@ toString을 이용해 문자열로 바꿔주었고 split로 배열을 만들었�
 2016년의 월마다의 일 수를 month 배열에 넣었고, 2016년의 1월 1일이 금요일이기 때문에 day 배열에 금요일을 제일 앞에 넣었다. a달 전달까지의 일자를 모두 더하고 b-1의 일자까지 더해주어 총 일 수를 구했다. 총 일 수에 7로 나눈 나머지를 구해 day 배열에서 요일을 찾아 반환하였다.
 
 [Date](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Date)객체를 이용해 풀 수도 있다.
+
+
+
+#### 2021.09.07
+
+- [문자열 다루기 기본](../master/Programmers/문자열다루기기본/index.js)
+
+length를 이용해 s의 길이를 구했고, == 은 값만 비교하기 때문에 === 대신 ==을 써 s가 숫자로만 구성돼있는지 확인하였다.
