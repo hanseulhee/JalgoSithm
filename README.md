@@ -153,3 +153,11 @@ toString을 이용해 문자열로 바꿔주었고 split로 배열을 만들었�
 - [문자열 다루기 기본](../master/Programmers/문자열다루기기본/index.js)
 
 length를 이용해 s의 길이를 구했고, == 은 값만 비교하기 때문에 === 대신 ==을 써 s가 숫자로만 구성돼있는지 확인하였다.
+
+
+
+#### 2021.09.08
+
+- [약수의 개수와 덧셈](../master/Programmers/약수의개수와덧셈/index.js)
+
+ 제곱근이 정수면 약수의 개수가 홀수인 점을 이용하였다. [Math.sqrt()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Math/sqrt)함수는 숫자의 제곱근을 반환한다. 이를 이용해 정수인지 판별하는 메소드 [Number.isInteger()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Number/isInteger) 로 정수이면 빼기 아닐 경우 더해주도록 하였다.
