@@ -168,5 +168,4 @@ length를 이용해 s의 길이를 구했고, == 은 값만 비교하기 때문�
 - [3진법 뒤집기](../master/Programmers/3진법뒤집기/index.js)
 
 toString으로 3진법으로 변환하여 문자열로 만든 후 split로 분할하였다. [toString](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Number/toString)은 특정 기수를 기준으로 한 진수 값의 문자열을 환원하기 위한 바꾸어주는 역할을 한다. reverse로 뒤집었고 마지막에 [parseInt](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/parseInt)를 이용해 3진법으로 표현한 정수를 나타내었다. 
-[Javascript 진법 변환](https://medium.com/web-dev-note/javascript-%EC%A7%84%EB%B2%95-%EB%B3%80%ED%99%98-330694083495)
-[진법](http://tcpschool.com/codingmath/notation)
+[Javascript 진법 변환](https://medium.com/web-dev-note/javascript-%EC%A7%84%EB%B2%95-%EB%B3%80%ED%99%98-330694083495), [진법](http://tcpschool.com/codingmath/notation)
