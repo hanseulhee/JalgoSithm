@@ -176,3 +176,10 @@ toString으로 3진법으로 변환하여 문자열로 만든 후 split로 분�
 - [체육복](../master/Programmers/체육복/index.js)
 
 [fill](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/fill)메소드를 이용해 배열의 시작부터 끝 인덱스 이전 까지 1로 채워준 후 배열에 학생마다의 체육복 수를 저장하였다. 2개의 체육복을 가진 학생일 때 앞, 뒤 순서로 빌려주도록 하였다.
+
+
+#### 2021.09.12
+
+- [두 개 뽑아서 더하기](../master/Programmers/두개뽑아서더하기/index.js)
+
+반복문을 돌면서 나온 두 수를 더해 arr 배열에 저장하였다. [Set](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Set)을 이용해 배열에 있는 중복 값들을 제거하였다. 마지막으로 sort로 오름차순으로 정렬해 반환하였다.
