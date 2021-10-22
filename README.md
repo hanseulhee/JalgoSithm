@@ -183,3 +183,10 @@ toString으로 3진법으로 변환하여 문자열로 만든 후 split로 분�
 - [두 개 뽑아서 더하기](../master/Programmers/두개뽑아서더하기/index.js)
 
 반복문을 돌면서 나온 두 수를 더해 arr 배열에 저장하였다. [Set](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Set)을 이용해 배열에 있는 중복 값들을 제거하였다. 마지막으로 sort로 오름차순으로 정렬해 반환하였다.
+
+
+#### 2021.10.23
+
+- [모의고사](../master/Programmers/모의고사/index.js)
+
+수포자마다 찍는 방식을 배열에 저장하였다. for문으로 각각의 답안지들과 answers를 비교해 일치할 때마다 correctAnswer가 증가하도록 하였다. [Math.max()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Math/max)로 최대값을 구했고 이후 오름차순 정렬해 answer배열을 반환하였다.
