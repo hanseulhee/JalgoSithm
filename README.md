@@ -190,3 +190,10 @@ toString으로 3진법으로 변환하여 문자열로 만든 후 split로 분�
 - [모의고사](../master/Programmers/모의고사/index.js)
 
 수포자마다 찍는 방식을 배열에 저장하였다. for문으로 각각의 답안지들과 answers를 비교해 일치할 때마다 correctAnswer가 증가하도록 하였다. [Math.max()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Math/max)로 최대값을 구했고 이후 오름차순 정렬해 answer배열을 반환하였다.
+
+
+#### 2021.10.24
+
+- [없는 숫자 더하기](../master/Programmers/없는숫자더하기/index.js)
+
+[includes](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/includes)메서드를 이용해 i가 numbers에 들어있는지 판별 후 들어있다면 answer에 i를 더해 반환하였다.
