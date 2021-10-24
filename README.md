@@ -197,3 +197,11 @@ toString으로 3진법으로 변환하여 문자열로 만든 후 split로 분�
 - [없는 숫자 더하기](../master/Programmers/없는숫자더하기/index.js)
 
 [includes](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/includes)메서드를 이용해 i가 numbers에 들어있는지 판별 후 들어있다면 answer에 i를 더해 반환하였다.
+
+
+#### 2021.10.25
+
+- [나머지가 1이 되는 수 찾기](../master/Programmers/나머지가1이되는수찾기/index.js)
+
+처음엔 arr 배열에 n % i가 1이 되는 수들을 넣고 마지막에 배열 중 가장 작은 수를 반환하였다. 
+그러나 for문에서 i가 2부터 시작하기 떄문에 최소값을 구할 필요없이 for문대로 돌다가 나머지가 1이되면 바로 반환하면 된다.
