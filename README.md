@@ -213,3 +213,10 @@ toString으로 3진법으로 변환하여 문자열로 만든 후 split로 분�
 
 이중 for문을 이용하였다. 첫번 째 for문은 arr1의 길이만큼 돌아 행을 추가하였고 두번 째 for문은 열을 추가하였다. 
 행과 열의 크기가 같은 두 행렬에서 배열.length는 행의 개수, 배열[인덱스]는 열의 개수를 뜻한다.
+
+
+#### 2021.10.27
+
+- [정수 제곱근 판별](../master/Programmers/정수제곱근판별/index.js)
+
+제곱근 문제, [Math.sqrt](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Math/sqrt)함수를 이용해 제곱근을 반환 후 나머지가 0이라면 x+1의 제곱을 반환하고 0이 아닐 경우 -1을 반환하였다.
