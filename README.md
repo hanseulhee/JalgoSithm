@@ -220,3 +220,10 @@ toString으로 3진법으로 변환하여 문자열로 만든 후 split로 분�
 - [정수 제곱근 판별](../master/Programmers/정수제곱근판별/index.js)
 
 제곱근 문제, [Math.sqrt](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Math/sqrt)함수를 이용해 제곱근을 반환 후 나머지가 0이라면 x+1의 제곱을 반환하고 0이 아닐 경우 -1을 반환하였다.
+
+
+#### 2021.10.28
+
+- [음양 더하기](../master/Programmers/음양더하기/index.js)
+
+배열의 길이만큼 반복문을 돌면서 signs[i]가 true일 경우 변수 answer에 absolutes[i]를 더하고 false일 경우 -1을 곱해 더하였다.
