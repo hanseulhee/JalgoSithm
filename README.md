@@ -227,3 +227,10 @@ toString으로 3진법으로 변환하여 문자열로 만든 후 split로 분�
 - [음양 더하기](../master/Programmers/음양더하기/index.js)
 
 배열의 길이만큼 반복문을 돌면서 signs[i]가 true일 경우 변수 answer에 absolutes[i]를 더하고 false일 경우 -1을 곱해 더하였다.
+
+
+#### 2021.10.29
+
+- [내적](../master/Programmers/내적/index.js)
+
+배열의 길이만큼 반복문을 돌면서 a[i] * b[i]한 값을 변수 answer에 더한 후 반환하였다.
