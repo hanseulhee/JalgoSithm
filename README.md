@@ -234,3 +234,10 @@ toString으로 3진법으로 변환하여 문자열로 만든 후 split로 분�
 - [내적](../master/Programmers/내적/index.js)
 
 배열의 길이만큼 반복문을 돌면서 a[i] * b[i]한 값을 변수 answer에 더한 후 반환하였다.
+
+
+#### 2021.10.30
+
+- [문자열을 정수로 바꾸기](../master/Programmers/문자열을정수로바꾸기/index.js)
+
+[Number](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Number)를 이용해 숫자로 변환하여 반환하였다.
