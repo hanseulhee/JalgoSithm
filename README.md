@@ -120,23 +120,17 @@ for문을 이용해 입력 값 안에서 if문으로 약수인지 판별하였�
 
 [toLowerCase](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase)메소드를 이용해 문자열을 소문자로 변환하였고 split로 문자열을 잘라 "p"와 "y"의 길이를 각각 구했다. 삼항연산자를 이용해 두 변수가 같을 경우 true, 이외의 경우는 false를 반환하였다.
 
-
-
-  
 #### 2021.09.04
 
 - [소수 찾기](../master/Programmers/소수찾기/index.js)
 
-에라토스테네스의 체를 이용해 풀었다. if문과 for문을 이용해 소수일 경우 배열에 추가, 아닐 경우 false로 설정하였다. 
-
-
+에라토스테네스의 체를 이용해 풀었다. if문과 for문을 이용해 소수일 경우 배열에 추가, 아닐 경우 false로 설정하였다.
 
 #### 2021.09.05
 
 - [자연수 뒤집어 배열로 만들기](../master/Programmers/자연수뒤집어배열로만들기/index.js)
 
 toString을 이용해 문자열로 바꿔주었고 split로 배열을 만들었다. reverse로 배열을 뒤집었고 map을 이용햐 정수형으로 변환 후 반환하였다.
-
 
 #### 2021.09.06
 
@@ -146,37 +140,30 @@ toString을 이용해 문자열로 바꿔주었고 split로 배열을 만들었�
 
 [Date](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Date)객체를 이용해 풀 수도 있다.
 
-
-
 #### 2021.09.07
 
 - [문자열 다루기 기본](../master/Programmers/문자열다루기기본/index.js)
 
 length를 이용해 s의 길이를 구했고, == 은 값만 비교하기 때문에 === 대신 ==을 써 s가 숫자로만 구성돼있는지 확인하였다.
 
-
-
 #### 2021.09.08
 
 - [약수의 개수와 덧셈](../master/Programmers/약수의개수와덧셈/index.js)
 
- 제곱근이 정수면 약수의 개수가 홀수인 점을 이용하였다. [Math.sqrt()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Math/sqrt)함수는 숫자의 제곱근을 반환한다. 이를 이용해 정수인지 판별하는 메소드 [Number.isInteger()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Number/isInteger) 로 정수이면 빼기 아닐 경우 더해주도록 하였다.
+제곱근이 정수면 약수의 개수가 홀수인 점을 이용하였다. [Math.sqrt()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Math/sqrt)함수는 숫자의 제곱근을 반환한다. 이를 이용해 정수인지 판별하는 메소드 [Number.isInteger()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Number/isInteger) 로 정수이면 빼기 아닐 경우 더해주도록 하였다.
 
-
- #### 2021.09.09
+#### 2021.09.09
 
 - [3진법 뒤집기](../master/Programmers/3진법뒤집기/index.js)
 
-toString으로 3진법으로 변환하여 문자열로 만든 후 split로 분할하였다. [toString](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Number/toString)은 특정 기수를 기준으로 한 진수 값의 문자열을 환원하기 위한 바꾸어주는 역할을 한다. reverse로 뒤집었고 마지막에 [parseInt](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/parseInt)를 이용해 3진법으로 표현한 정수를 나타내었다. 
+toString으로 3진법으로 변환하여 문자열로 만든 후 split로 분할하였다. [toString](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Number/toString)은 특정 기수를 기준으로 한 진수 값의 문자열을 환원하기 위한 바꾸어주는 역할을 한다. reverse로 뒤집었고 마지막에 [parseInt](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/parseInt)를 이용해 3진법으로 표현한 정수를 나타내었다.
 [Javascript 진법 변환](https://medium.com/web-dev-note/javascript-%EC%A7%84%EB%B2%95-%EB%B3%80%ED%99%98-330694083495), [진법](http://tcpschool.com/codingmath/notation)
 
-
- #### 2021.09.10
+#### 2021.09.10
 
 - [체육복](../master/Programmers/체육복/index.js)
 
 [fill](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/fill)메소드를 이용해 배열의 시작부터 끝 인덱스 이전 까지 1로 채워준 후 배열에 학생마다의 체육복 수를 저장하였다. 2개의 체육복을 가진 학생일 때 앞, 뒤 순서로 빌려주도록 하였다.
-
 
 #### 2021.09.12
 
@@ -184,13 +171,11 @@ toString으로 3진법으로 변환하여 문자열로 만든 후 split로 분�
 
 반복문을 돌면서 나온 두 수를 더해 arr 배열에 저장하였다. [Set](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Set)을 이용해 배열에 있는 중복 값들을 제거하였다. 마지막으로 sort로 오름차순으로 정렬해 반환하였다.
 
-
 #### 2021.10.23
 
 - [모의고사](../master/Programmers/모의고사/index.js)
 
 수포자마다 찍는 방식을 배열에 저장하였다. for문으로 각각의 답안지들과 answers를 비교해 일치할 때마다 correctAnswer가 증가하도록 하였다. [Math.max()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Math/max)로 최대값을 구했고 이후 오름차순 정렬해 answer배열을 반환하였다.
-
 
 #### 2021.10.24
 
@@ -198,22 +183,19 @@ toString으로 3진법으로 변환하여 문자열로 만든 후 split로 분�
 
 [includes](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/includes)메서드를 이용해 i가 numbers에 들어있는지 판별 후 들어있다면 answer에 i를 더해 반환하였다.
 
-
 #### 2021.10.25
 
 - [나머지가 1이 되는 수 찾기](../master/Programmers/나머지가1이되는수찾기/index.js)
 
-처음엔 arr 배열에 n % i가 1이 되는 수들을 넣고 마지막에 배열 중 가장 작은 수를 반환하였다. 
+처음엔 arr 배열에 n % i가 1이 되는 수들을 넣고 마지막에 배열 중 가장 작은 수를 반환하였다.
 그러나 for문에서 i가 2부터 시작하기 떄문에 최소값을 구할 필요없이 for문대로 돌다가 나머지가 1이되면 바로 반환하면 된다.
-
 
 #### 2021.10.26
 
 - [행렬의 덧셈](../master/Programmers/행렬의덧셈/index.js)
 
-이중 for문을 이용하였다. 첫번 째 for문은 arr1의 길이만큼 돌아 행을 추가하였고 두번 째 for문은 열을 추가하였다. 
+이중 for문을 이용하였다. 첫번 째 for문은 arr1의 길이만큼 돌아 행을 추가하였고 두번 째 for문은 열을 추가하였다.
 행과 열의 크기가 같은 두 행렬에서 배열.length는 행의 개수, 배열[인덱스]는 열의 개수를 뜻한다.
-
 
 #### 2021.10.27
 
@@ -221,23 +203,26 @@ toString으로 3진법으로 변환하여 문자열로 만든 후 split로 분�
 
 제곱근 문제, [Math.sqrt](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Math/sqrt)함수를 이용해 제곱근을 반환 후 나머지가 0이라면 x+1의 제곱을 반환하고 0이 아닐 경우 -1을 반환하였다.
 
-
 #### 2021.10.28
 
 - [음양 더하기](../master/Programmers/음양더하기/index.js)
 
 배열의 길이만큼 반복문을 돌면서 signs[i]가 true일 경우 변수 answer에 absolutes[i]를 더하고 false일 경우 -1을 곱해 더하였다.
 
-
 #### 2021.10.29
 
 - [내적](../master/Programmers/내적/index.js)
 
-배열의 길이만큼 반복문을 돌면서 a[i] * b[i]한 값을 변수 answer에 더한 후 반환하였다.
-
+배열의 길이만큼 반복문을 돌면서 a[i] \* b[i]한 값을 변수 answer에 더한 후 반환하였다.
 
 #### 2021.10.30
 
 - [문자열을 정수로 바꾸기](../master/Programmers/문자열을정수로바꾸기/index.js)
 
 [Number](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Number)를 이용해 숫자로 변환하여 반환하였다.
+
+#### 2021.10.31
+
+- [하샤드 수](../master/Programmers/하샤드수/index.js)
+
+x를 문자열로 변경 후 split로 쪼개고 map을 이용해 다시 정수형으로 만들었다. [reduce](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce)를 이용해 배열의 합을 구했고 이후 조건에 맞는다면 true 아닐 경우 false를 반환하였다.
