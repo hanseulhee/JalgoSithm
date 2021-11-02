@@ -232,3 +232,9 @@ x를 문자열로 변경 후 split로 쪼개고 map을 이용해 다시 정수�
 - [K번째 수](../master/Programmers/K번째수/index.js)
 
 commands 길이만큼 반복문을 돌면서 slice로 array의 배열을 자르고 [sort()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)로 정렬하였다. 이후 k번째 수를 answer에 push하여 반환하였다.
+
+#### 2021.11.02
+
+- [완주하지 못한 선수](../master/Programmers/완주하지못한선수/index.js)
+
+두 배열을 정렬 후 for문을 돌면서 동일하지 않을 경우 반환하도록 하였다.
