@@ -258,3 +258,10 @@ a,b < 0 이면 a를 b보다 작은 인덱스로 정렬, a,b === 0 이면 a와 b�
 - [가장 큰 수](../master/Programmers/가장큰수/index.js)
 
 [map](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/map)을 이용해 문자열로 변환하였고 sort를 이용해 수가 큰 순으로 정렬하였다. b+a, a+b를 써 문자열로 수를 비교하였다. 이후 join으로 문자열을 합하여 가장 큰 수를 구했다. 0만 있는 경우 예외처리가 필요해 삼항연산자로 풀어 반환하였다.
+
+
+#### 2021.11.11
+
+- [기능개발](../master/Programmers/기능개발/index.js)
+
+while문과 if문으로 조건을 두고 조건 충족 시 [shift](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/shift)로 하나씩 없애 만들어진 answer을 반환하였다.
