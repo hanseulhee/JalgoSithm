@@ -272,3 +272,15 @@ while문과 if문으로 조건을 두고 조건 충족 시 [shift](https://devel
 - [타겟 넘버](../master/Programmers/타겟넘버/index.js)
 
 깊이/너비 우선 탐색 문제, +인 경우를 모두 탐색 후 -인 경우를 탐색하였다. 재귀함수를 사용할 때에는 모든 함수가 끝난 후 실행이 되어야한다.
+
+
+#### 2021.11.22
+
+- [프린터](../master/Programmers/프린터/index.js)
+
+**Math.max.apply(null, arr)**
+
+Math.max()를 이용해 매개변수들의 최대값을 구할 수 있다. [apply()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Function/apply)메소드는 this와 배열로 제공되는 arguments로 함수를 호출한다. apply의 두번째 파라미터에는 배열만 들어갈 수 있다.
+
+
+shift로 맨앞의 요소를 빼낸 후 빼낸 요소가 max와 같다면 cnt를 1 증가시키고 이 때 location이 0이 되면 cnt를 반환하였다. max와 다를 경우 배열 맨 끝에 꺼낸 요소를 추가하였다. while문을 돌면서 location 값을 1씩 감소시켰다. 이후 만약 location이 -1이 된다면 다시 배열의 끝으로 보냈다.
