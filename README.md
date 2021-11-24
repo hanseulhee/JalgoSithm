@@ -9,17 +9,64 @@
 split는 문자열만 가능하다. 정수형을 [toString](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Number/toString)을 이용해 문자열로 변경 후 split로 쪼갰다.
 덧셈을 하기 위해 [map](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/map)메소드로 정수형 변환을 하였고 마지막으로 reduce를 이용해 모든 수를 더했다.
 
+
+👁‍🗨 2021.11.24
+
+문자열로 변환하는 여러 방법이 있지만 String 함수와 toString 함수의 차이점을 알아보았다.
+
+
+**String vs toString**
+두 함수 모두 주어진 인자를 문자열로 형변환하여 반환한다.
+
+String() 함수는 new 키워드와 함께 새로운 문자열 객체의 생성자가 될 수 있다.
+toString 함수는 문자열의 메소드로 사용될 경우 valueOf 와 동일한 역할을 수행하고 숫자의 메소드로 사용될 경우에는 인자로 2 ~ 36 사이의 값을 대입하면 숫자를 해당 진수로 변환한 문자열을 얻을 수 있다.
+
+목적에 따라 다른 기능을 수행할 수 있을 것같다.
+
+**문자열 배열을 정수 배열로 변환**
+
+전에는 map과 parseInt로 풀었는데 map(Number)코드로 변환할 수 있었다.
+
+
 #### 2021.08.17
 
 - [짝수와 홀수](../master/Programmers/짝수와홀수/index.js)
 
 if문으로 짝수 홀수를 구분하였고 이에 맞는 메세지를 반환시켰다.
 
+
+👁‍🗨 2021.11.24
+
+삼항연산자를 통해 한 줄로 풀 수 있었다.
+== 과 === 의 차이를 찾아보았다.
+
+
+**== vs ===**
+
+동등 연산자(==)는 두 피연산자의 자료형을 일치시킨 후 비교를 수행한다.
+
+```js
+1 == 1 // true
+"1" == 1 // true
+1 == "1" // true
+```
+
+일치 연산자(===)는 자료형 변환없이 두 피연산자가 같은지 판별한다.
+
+```js
+1 === 1 // true
+"1" === 1 // false
+```
+
+따라서 ==는 변수 값을 기반으로 비교하지만 ===는 변수 유형을 고려해 비교한다.
+
 #### 2021.08.18
 
 - [평균 구하기](../master/Programmers/평균구하기/index.js)
 
 [reduce](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce)를 이용하여 배열의 합을 구하고 배열의 길이로 나누어 평균을 구했다. reduce는 배열의 각 요소에 대해 주어진 reducer 함수를 실행하고, 하나의 결과값을 반환한다.
+
+
 
 #### 2021.08.19
 

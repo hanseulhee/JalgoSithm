@@ -10,3 +10,5 @@ const solution = (n, m) => {
 //     const answer = ("*".repeat(a)+'\n').repeat(b);
 //     console.log(answer);
 // });
+
+
