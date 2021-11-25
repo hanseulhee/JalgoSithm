@@ -2,7 +2,7 @@
 
 ✏ Algorithm with JavaScript
 
-#### 2021.08.16
+### 2021.08.16
 
 - [자릿수 더하기](../master/Programmers/자릿수더하기/index.js)
 
@@ -16,6 +16,8 @@ split는 문자열만 가능하다. 정수형을 [toString](https://developer.mo
 
 
 **String vs toString**
+
+
 두 함수 모두 주어진 인자를 문자열로 형변환하여 반환한다.
 
 String() 함수는 new 키워드와 함께 새로운 문자열 객체의 생성자가 될 수 있다.
@@ -30,7 +32,7 @@ toString 함수는 문자열의 메소드로 사용될 경우 valueOf 와 동일
 전에는 map과 parseInt로 풀었는데 map(Number)코드로 변환할 수 있었다.
 
 
-#### 2021.08.17
+### 2021.08.17
 
 - [짝수와 홀수](../master/Programmers/짝수와홀수/index.js)
 
@@ -63,7 +65,7 @@ if문으로 짝수 홀수를 구분하였고 이에 맞는 메세지를 반환�
 따라서 ==는 변수 값을 기반으로 비교하지만 ===는 변수 유형을 고려해 비교한다.
 
 
-#### 2021.08.18
+### 2021.08.18
 
 - [평균 구하기](../master/Programmers/평균구하기/index.js)
 
@@ -96,61 +98,61 @@ if문으로 짝수 홀수를 구분하였고 이에 맞는 메세지를 반환�
 
 요청 후 응답과 관계없이 다음 동작을 실행하는 방식
 
-#### 2021.08.19
+### 2021.08.19
 
 - [핸드폰 번호 가리기](../master/Programmers/핸드폰번호가리기/index.js)
 
 [repeat](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String/repeat)메소드를 이용해 문자열 길이의 4를 뺀 만큼 \*를 반복했고 [slice](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String/slice)로 뒤에서 4자리 문자열을 가져와 반환하였다.
 
-#### 2021.08.20
+### 2021.08.20
 
 - [정수 내림차순으로 배치하기](../master/Programmers/정수내림차순으로배치하기/index.js)
 
 [Number](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Number)은 숫자 형식으로 변환하는 함수다. 이를 이용해 마지막에 문자형이 아닌 정수형으로 반환하였다. toString로 정수형을 문자형으로 바꿔주고 [split]()로 하나씩 잘라 배열로 만들었다. [sort](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)로 정렬했고 reverse로 내림차순으로 만들었다.
 
-#### 2021.08.21
+### 2021.08.21
 
 - [직사각형별찍기](../master/Programmers/직사각형별찍기/index.js)
 
 repeat 메소드를 이용해 가로 별을 찍었고 마지막에 줄 바꿈도 하도록 했다. 이를 큰 가로로 묶어 세로 길이를 곱했다.
 
-#### 2021.08.22
+### 2021.08.22
 
 - [나누어 떨어지는 숫자 배열](../master/Programmers/나누어떨어지는숫자배열/index.js)
 
 [filter](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)를 이용해 arr 배열의 요소가 divisor로 나누어떨어지는지 계산해 새로운 배열로 반환하였다. 새로 반환한 배열을 [sort](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)로 오름차순 정렬했다. [삼항 조건 연산자](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)를 이용해 0이 아닐 경우 -1을 반환하도록 하였다.
 
-#### 2021.08.23
+### 2021.08.23
 
 - [문자열 내림차순으로 배치하기](../master/Programmers/문자열내림차순으로배치하기/index.js)
 
 문자를 큰것부터 작은 순으로 정렬하는 문제, sort와 reverse 메소드를 이용해 내림차순으로 정렬했고 join으로 문자열로 바꾸어 반환하였다. sort 메소드는 대문자 소문자 별로 정렬시킨다.
 
-#### 2021.08.24
+### 2021.08.24
 
 - [제일 작은 수 제거하기](../master/Programmers/제일작은수제거하기/index.js)
 
 [Math.min](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Math/min) 함수를 이용해 arr 배열의 제일 작은 수를 구하고 [indexOf](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf)로 해당 배열의 값을 찾았다. [splice](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/splice)를 이용헤 제일 작은 수 를 제거한 배열을 반환하였다.
 
-#### 2021.08.25
+### 2021.08.25
 
 - [x만큼 간격이 있는 n개의 숫자](../master/Programmers/x만큼간격이있는n개의숫자/index.js)
 
 배열을 만들고 for문을 이용해 n의 길이만큼 각 요소를 돌며 i를 증가시켰다. 그 다음 [push](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/push) 메소드로 배열에 요소를 추가하여 반환하였다.
 
-#### 2021.08.26
+### 2021.08.26
 
 - [부족한 금액 계산하기](../master/Programmers/부족한금액계산하기/index.js)
 
 for문을 이용해 count의 길이만큼 i를 price에 곱해 배열에 push하였다. sum 변수에 reduce로 원소들을 더했다. 이후 if문을 이용해 돈이 sum 보다 많을 경우와 아닐 경우를 구분해 반환하였다. +[Math.abs](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Math/abs)함수는 주어진 숫자의 절대값을 반환한다.
 
-#### 2021.08.27
+### 2021.08.27
 
 - [수박수박수박수박수박수?](<../master/Programmers/수박(문자열길이)/index.js>)
 
 [substring](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String/substring) 메소드를 이용해 인덱스 0 부터 n까지 문자열을 반환하도록 하였고 repeat 메소드를 이용해 문자열을 반복시켰다.
 
-#### 2021.08.28
+### 2021.08.28
 
 - [두 정수 사이의 합](../master/Programmers/두정수사이의합/index.js)
 
@@ -158,56 +160,56 @@ for문을 이용해 count의 길이만큼 i를 price에 곱해 배열에 push하
 
 절대값을 반환해주는 Math.abs 함수를 이용하여 풀었다.
 
-#### 2021.08.29
+### 2021.08.29
 
 - [서울에서 김서방 찾기](../master/Programmers/서울에서김서방찾기/index.js)
 
 [indexOf](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf)를 이용해 배열에서 "Kim"이 어디있는지 찾았고 연산자 + 를 이용해 문자열을 연결해주었다.
 
-#### 2021.08.30
+### 2021.08.30
 
 - [같은 숫자는 싫어](../master/Programmers/같은숫자는싫어/index.js)
 
 빈 배열을 만들고 빈 배열에 arr 배열 값을 넣을 때마다 중복된 값인지 확인하는 코드를 짜려 했지만 어려웠다 ...
 [filter](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/filter) 메소드를 이용해 현재 인덱스의 요소와 다음 인덱스의 요소가 다르면 새로운 배열에 추가해 새로운 배열의 형태로 반환하였다.
 
-#### 2021.08.31
+### 2021.08.31
 
 - [가운데 글자 가져오기](../master/Programmers/가운데글자가져오기/index.js)
 
 삼항연산자를 이용해 길이가 짝수일 경우 홀수일 경우를 나누어 slice로 계산해주었다. [Destructuring](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)을 이용해 코드의 가독성을 높였다.
 
-#### 2021.09.01
+### 2021.09.01
 
 - [콜라츠 추측](../master/Programmers/콜라츠추측/index.js)
 
 주어진 변수 n을 tempN에 할당 후, while문을 이용해 tempN이 1이될 때 까지 반복하도록 하였다. 삼항연산자를 이용해 짝수, 홀수의 경우를 나누고 while을 돌면서 count 변수에 1을 더해주었다. 만약 count가 500이 넘으면 -1을 반환하도록 하였다.
 
-#### 2021.09.02
+### 2021.09.02
 
 - [약수의 합](../master/Programmers/약수의합/index.js)
 
 for문을 이용해 입력 값 안에서 if문으로 약수인지 판별하였고 약수일 경우 변수 answer에 더해주었다.
 
-#### 2021.09.03
+### 2021.09.03
 
 - [문자열 내 p와 y의 개수](../master/Programmers/문자열내p와y의개수/index.js)
 
 [toLowerCase](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase)메소드를 이용해 문자열을 소문자로 변환하였고 split로 문자열을 잘라 "p"와 "y"의 길이를 각각 구했다. 삼항연산자를 이용해 두 변수가 같을 경우 true, 이외의 경우는 false를 반환하였다.
 
-#### 2021.09.04
+### 2021.09.04
 
 - [소수 찾기](../master/Programmers/소수찾기/index.js)
 
 에라토스테네스의 체를 이용해 풀었다. if문과 for문을 이용해 소수일 경우 배열에 추가, 아닐 경우 false로 설정하였다.
 
-#### 2021.09.05
+### 2021.09.05
 
 - [자연수 뒤집어 배열로 만들기](../master/Programmers/자연수뒤집어배열로만들기/index.js)
 
 toString을 이용해 문자열로 바꿔주었고 split로 배열을 만들었다. reverse로 배열을 뒤집었고 map을 이용햐 정수형으로 변환 후 반환하였다.
 
-#### 2021.09.06
+### 2021.09.06
 
 - [2016년](../master/Programmers/2016년/index.js)
 
@@ -215,141 +217,141 @@ toString을 이용해 문자열로 바꿔주었고 split로 배열을 만들었�
 
 [Date](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Date)객체를 이용해 풀 수도 있다.
 
-#### 2021.09.07
+### 2021.09.07
 
 - [문자열 다루기 기본](../master/Programmers/문자열다루기기본/index.js)
 
 length를 이용해 s의 길이를 구했고, == 은 값만 비교하기 때문에 === 대신 ==을 써 s가 숫자로만 구성돼있는지 확인하였다.
 
-#### 2021.09.08
+### 2021.09.08
 
 - [약수의 개수와 덧셈](../master/Programmers/약수의개수와덧셈/index.js)
 
 제곱근이 정수면 약수의 개수가 홀수인 점을 이용하였다. [Math.sqrt()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Math/sqrt)함수는 숫자의 제곱근을 반환한다. 이를 이용해 정수인지 판별하는 메소드 [Number.isInteger()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Number/isInteger) 로 정수이면 빼기 아닐 경우 더해주도록 하였다.
 
-#### 2021.09.09
+### 2021.09.09
 
 - [3진법 뒤집기](../master/Programmers/3진법뒤집기/index.js)
 
 toString으로 3진법으로 변환하여 문자열로 만든 후 split로 분할하였다. [toString](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Number/toString)은 특정 기수를 기준으로 한 진수 값의 문자열을 환원하기 위한 바꾸어주는 역할을 한다. reverse로 뒤집었고 마지막에 [parseInt](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/parseInt)를 이용해 3진법으로 표현한 정수를 나타내었다.
 [Javascript 진법 변환](https://medium.com/web-dev-note/javascript-%EC%A7%84%EB%B2%95-%EB%B3%80%ED%99%98-330694083495), [진법](http://tcpschool.com/codingmath/notation)
 
-#### 2021.09.10
+### 2021.09.10
 
 - [체육복](../master/Programmers/체육복/index.js)
 
 [fill](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/fill)메소드를 이용해 배열의 시작부터 끝 인덱스 이전 까지 1로 채워준 후 배열에 학생마다의 체육복 수를 저장하였다. 2개의 체육복을 가진 학생일 때 앞, 뒤 순서로 빌려주도록 하였다.
 
-#### 2021.09.12
+### 2021.09.12
 
 - [두 개 뽑아서 더하기](../master/Programmers/두개뽑아서더하기/index.js)
 
 반복문을 돌면서 나온 두 수를 더해 arr 배열에 저장하였다. [Set](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Set)을 이용해 배열에 있는 중복 값들을 제거하였다. 마지막으로 sort로 오름차순으로 정렬해 반환하였다.
 
-#### 2021.10.23
+### 2021.10.23
 
 - [모의고사](../master/Programmers/모의고사/index.js)
 
 수포자마다 찍는 방식을 배열에 저장하였다. for문으로 각각의 답안지들과 answers를 비교해 일치할 때마다 correctAnswer가 증가하도록 하였다. [Math.max()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Math/max)로 최대값을 구했고 이후 오름차순 정렬해 answer배열을 반환하였다.
 
-#### 2021.10.24
+### 2021.10.24
 
 - [없는 숫자 더하기](../master/Programmers/없는숫자더하기/index.js)
 
 [includes](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/includes)메서드를 이용해 i가 numbers에 들어있는지 판별 후 들어있다면 answer에 i를 더해 반환하였다.
 
-#### 2021.10.25
+### 2021.10.25
 
 - [나머지가 1이 되는 수 찾기](../master/Programmers/나머지가1이되는수찾기/index.js)
 
 처음엔 arr 배열에 n % i가 1이 되는 수들을 넣고 마지막에 배열 중 가장 작은 수를 반환하였다.
 그러나 for문에서 i가 2부터 시작하기 떄문에 최소값을 구할 필요없이 for문대로 돌다가 나머지가 1이되면 바로 반환하면 된다.
 
-#### 2021.10.26
+### 2021.10.26
 
 - [행렬의 덧셈](../master/Programmers/행렬의덧셈/index.js)
 
 이중 for문을 이용하였다. 첫번 째 for문은 arr1의 길이만큼 돌아 행을 추가하였고 두번 째 for문은 열을 추가하였다.
 행과 열의 크기가 같은 두 행렬에서 배열.length는 행의 개수, 배열[인덱스]는 열의 개수를 뜻한다.
 
-#### 2021.10.27
+### 2021.10.27
 
 - [정수 제곱근 판별](../master/Programmers/정수제곱근판별/index.js)
 
 제곱근 문제, [Math.sqrt](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Math/sqrt)함수를 이용해 제곱근을 반환 후 나머지가 0이라면 x+1의 제곱을 반환하고 0이 아닐 경우 -1을 반환하였다.
 
-#### 2021.10.28
+### 2021.10.28
 
 - [음양 더하기](../master/Programmers/음양더하기/index.js)
 
 배열의 길이만큼 반복문을 돌면서 signs[i]가 true일 경우 변수 answer에 absolutes[i]를 더하고 false일 경우 -1을 곱해 더하였다.
 
-#### 2021.10.29
+### 2021.10.29
 
 - [내적](../master/Programmers/내적/index.js)
 
 배열의 길이만큼 반복문을 돌면서 a[i] \* b[i]한 값을 변수 answer에 더한 후 반환하였다.
 
-#### 2021.10.30
+### 2021.10.30
 
 - [문자열을 정수로 바꾸기](../master/Programmers/문자열을정수로바꾸기/index.js)
 
 [Number](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Number)를 이용해 숫자로 변환하여 반환하였다.
 
-#### 2021.10.31
+### 2021.10.31
 
 - [하샤드 수](../master/Programmers/하샤드수/index.js)
 
 x를 문자열로 변경 후 split로 쪼개고 map을 이용해 다시 정수형으로 만들었다. [reduce](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce)를 이용해 배열의 합을 구했고 이후 조건에 맞는다면 true 아닐 경우 false를 반환하였다.
 
-#### 2021.11.01
+### 2021.11.01
 
 - [K번째 수](../master/Programmers/K번째수/index.js)
 
 commands 길이만큼 반복문을 돌면서 slice로 array의 배열을 자르고 [sort()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)로 정렬하였다. 이후 k번째 수를 answer에 push하여 반환하였다.
 
-#### 2021.11.02
+### 2021.11.02
 
 - [완주하지 못한 선수](../master/Programmers/완주하지못한선수/index.js)
 
 두 배열을 정렬 후 for문을 돌면서 동일하지 않을 경우 반환하도록 하였다.
 
-#### 2021.11.03
+### 2021.11.03
 
 - [문자열 내 마음대로 정렬하기](../master/Programmers/문자열내마음대로정렬하기/index.js)
 
 sort를 이용하였다.
 a,b < 0 이면 a를 b보다 작은 인덱스로 정렬, a,b === 0 이면 a와 b의 순서를 바꾸지 않음, a,b > 0 이면 b를 a보다 작은 인덱스로 정렬하는 점을 이용하여 풀었다.
 
-#### 2021.11.06
+### 2021.11.06
 
 - [최대공약수와 최소공배수](../master/Programmers/최대공약수와최소공배수/index.js)
 
 유클리드 호제법을 이용하여 풀었다. 최소공배수는 두 수를 곱한 후 최대공약수로 나누어 구했다.
 
 
-#### 2021.11.08
+### 2021.11.08
 
 - [가장 큰 수](../master/Programmers/가장큰수/index.js)
 
 [map](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/map)을 이용해 문자열로 변환하였고 sort를 이용해 수가 큰 순으로 정렬하였다. b+a, a+b를 써 문자열로 수를 비교하였다. 이후 join으로 문자열을 합하여 가장 큰 수를 구했다. 0만 있는 경우 예외처리가 필요해 삼항연산자로 풀어 반환하였다.
 
 
-#### 2021.11.11
+### 2021.11.11
 
 - [기능개발](../master/Programmers/기능개발/index.js)
 
 while문과 if문으로 조건을 두고 조건 충족 시 [shift](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/shift)로 하나씩 없애 만들어진 answer을 반환하였다.
 
 
-#### 2021.11.14
+### 2021.11.14
 
 - [타겟 넘버](../master/Programmers/타겟넘버/index.js)
 
 깊이/너비 우선 탐색 문제, +인 경우를 모두 탐색 후 -인 경우를 탐색하였다. 재귀함수를 사용할 때에는 모든 함수가 끝난 후 실행이 되어야한다.
 
 
-#### 2021.11.22
+### 2021.11.22
 
 - [프린터](../master/Programmers/프린터/index.js)
 
