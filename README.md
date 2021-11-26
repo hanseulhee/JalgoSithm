@@ -106,7 +106,7 @@ if문으로 짝수 홀수를 구분하였고 이에 맞는 메세지를 반환�
 
 
 
-👁‍🗨 2021.11.25
+👁‍🗨 2021.11.26
 
 *을 phone_number 뒤에서 4자리 전까지 반복 후 뒤에 phone_number 뒤에서 4자리 문자열을 붙여 반환하였다.
 
@@ -120,7 +120,7 @@ if문으로 짝수 홀수를 구분하였고 이에 맞는 메세지를 반환�
 [Number](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Number)은 숫자 형식으로 변환하는 함수다. 이를 이용해 마지막에 문자형이 아닌 정수형으로 반환하였다. toString로 정수형을 문자형으로 바꿔주고 [split]()로 하나씩 잘라 배열로 만들었다. [sort](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)로 정렬했고 reverse로 내림차순으로 만들었다.
 
 
-👁‍🗨 2021.11.25
+👁‍🗨 2021.11.26
 
 sort로 내림차순 정렬을 하였다.
 [join](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/join) 메소드는 배열의 모든 요소를 연결해 하나의 문자열로 만든다.
@@ -133,23 +133,62 @@ sort로 내림차순 정렬을 하였다.
 
 repeat 메소드를 이용해 가로 별을 찍었고 마지막에 줄 바꿈도 하도록 했다. 이를 큰 가로로 묶어 세로 길이를 곱했다.
 
+
 ### 2021.08.22
 
 - [나누어 떨어지는 숫자 배열](../master/Programmers/나누어떨어지는숫자배열/index.js)
 
 [filter](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)를 이용해 arr 배열의 요소가 divisor로 나누어떨어지는지 계산해 새로운 배열로 반환하였다. 새로 반환한 배열을 [sort](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)로 오름차순 정렬했다. [삼항 조건 연산자](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)를 이용해 0이 아닐 경우 -1을 반환하도록 하였다.
 
+
+👁‍🗨 2021.11.27
+
+filter로 풀었기 때문에 map을 이용해 풀려했으나 map은 계산식을 사용하면 배열상태에 true, false로 찍혀 값을 answer이라는 배열에 push하였다.
+
+filter는 배열 각 요소에 대해 주어진 함수의 결과값이 true인 요소만 모아 새로운 배열을 반환하기 때문에 map과 다른 점이 있었다.
+
+
+**map vs forEach**
+
+
+map은 새로운 배열을 반환하지만 forEach는 array를 결과로 가지기 위해서 push를 통해 배열을 만들어줘야한다.
+배열을 순회하려면 forEach, 배열을 순회 후 새 배열을 얻고 싶다면 map을 사용한다고 생각하면 될 것 같다.
+
+
 ### 2021.08.23
 
 - [문자열 내림차순으로 배치하기](../master/Programmers/문자열내림차순으로배치하기/index.js)
 
-문자를 큰것부터 작은 순으로 정렬하는 문제, sort와 reverse 메소드를 이용해 내림차순으로 정렬했고 join으로 문자열로 바꾸어 반환하였다. sort 메소드는 대문자 소문자 별로 정렬시킨다.
+문자를 큰 것부터 작은 순으로 정렬하는 문제, sort와 reverse 메소드를 이용해 내림차순으로 정렬했고 join으로 문자열로 바꾸어 반환하였다. sort 메소드는 대문자 소문자 별로 정렬시킨다.
+
+
+👁‍🗨 2021.11.27
+
+sort 메소드를 써 대문자가 소문자보다 더 작은 것으로 간주할 수 있다.
+
 
 ### 2021.08.24
 
 - [제일 작은 수 제거하기](../master/Programmers/제일작은수제거하기/index.js)
 
 [Math.min](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Math/min) 함수를 이용해 arr 배열의 제일 작은 수를 구하고 [indexOf](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf)로 해당 배열의 값을 찾았다. [splice](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/splice)를 이용헤 제일 작은 수 를 제거한 배열을 반환하였다.
+
+
+👁‍🗨 2021.11.27
+
+arr의 길이가 1일경우 [-1]을 반환하고 아니라면 filter을 이용해 배열에서 최솟값을 제외한 배열을 반환하였다.
+
+
+**배열 최솟값 구하기**
+
+
+for문도 있으나 [Math.min()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Math/min)으로 쉽게 구할 수 있다.
+
+
+**splice vs slice**
+
+slice는 원본 배열을 수정하지 않고 새로운 배열을 만드는 것과 다르게 splice는 원본 배열 자체를 수정한다.
+
 
 ### 2021.08.25
 
