@@ -224,6 +224,7 @@ fill 메소드는 배열의 시작 인덱스부터 끝 인덱스의 이전까지
 
 for문을 이용해 count의 길이만큼 i를 price에 곱해 배열에 push하였다. sum 변수에 reduce로 원소들을 더했다. 이후 if문을 이용해 돈이 sum 보다 많을 경우와 아닐 경우를 구분해 반환하였다. +[Math.abs](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Math/abs)함수는 주어진 숫자의 절대값을 반환한다.
 
+
 ### 2021.08.27
 
 - [수박수박수박수박수박수?](<../master/Programmers/수박(문자열길이)/index.js>)
@@ -277,7 +278,7 @@ for문을 이용해 입력 값 안에서 if문으로 약수인지 판별하였�
 
 ### 2021.09.04
 
-- [소수 찾기](../master/Programmers/소수찾기/index.js)
+- [소수 찾기 level 1](../master/Programmers/소수찾기레벨1/index.js)
 
 에라토스테네스의 체를 이용해 풀었다. if문과 for문을 이용해 소수일 경우 배열에 추가, 아닐 경우 false로 설정하였다.
 
@@ -439,3 +440,14 @@ Math.max()를 이용해 매개변수들의 최대값을 구할 수 있다. [appl
 
 
 shift로 맨앞의 요소를 빼낸 후 빼낸 요소가 max와 같다면 cnt를 1 증가시키고 이 때 location이 0이 되면 cnt를 반환하였다. max와 다를 경우 배열 맨 끝에 꺼낸 요소를 추가하였다. while문을 돌면서 location 값을 1씩 감소시켰다. 이후 만약 location이 -1이 된다면 다시 배열의 끝으로 보냈다.
+
+
+### 2021.11.29
+
+- [소수 찾기 level 2](../master/Programmers/소수찾기레벨2/index.js)
+
+[includes](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/includes)메소드는 배열이 해당 요소를 포함하는지 판별한다.
+
+너무 어려운 문제였다 ... 26번째 줄은 아직 잘 모르겠다. 복습 많이 해야겠다.
+
+[순열과 조합](https://jun-choi-4928.medium.com/javascript%EB%A1%9C-%EC%88%9C%EC%97%B4%EA%B3%BC-%EC%A1%B0%ED%95%A9-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0-21df4b536349)
