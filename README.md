@@ -196,6 +196,28 @@ slice는 원본 배열을 수정하지 않고 새로운 배열을 만드는 것�
 
 배열을 만들고 for문을 이용해 n의 길이만큼 각 요소를 돌며 i를 증가시켰다. 그 다음 [push](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/push) 메소드로 배열에 요소를 추가하여 반환하였다.
 
+
+👁‍🗨 2021.11.28
+
+[Array](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/Array)를 이용해 n길이만큼의 배열을 생성 후 fill을 이용하여 x로 배열을 채웠다. 이후 map을 이용하여 계산 후 반환하였다.
+
+index는 0부터 시작한다.
+```js
+function solution(x, n) {
+  return Array(n)
+    .fill(x)
+    .map((v, index) => v * (index + 1)); 
+}
+```
+
+
+**fill**
+
+
+fill 메소드는 배열의 시작 인덱스부터 끝 인덱스의 이전까지 정적인 값 하나로 채우는 메소드다.
+만약 m개의 길이만큼의 배열을 n으로 시작하는 값으로 채우고 싶다면 fill 메소드를 생각하면 될 것같다.
+
+
 ### 2021.08.26
 
 - [부족한 금액 계산하기](../master/Programmers/부족한금액계산하기/index.js)
