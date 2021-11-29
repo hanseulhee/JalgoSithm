@@ -3,6 +3,7 @@ function solution(numbers) {
   let primeNumbers = [];
   const numbersArr = numbers.split("");
 
+  
   function determinePrime(num) {
     let count = 0;
     for (let i = 1; i <= num; i++) {

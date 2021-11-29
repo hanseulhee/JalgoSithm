@@ -449,5 +449,26 @@ shift로 맨앞의 요소를 빼낸 후 빼낸 요소가 max와 같다면 cnt를
 [includes](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/includes)메소드는 배열이 해당 요소를 포함하는지 판별한다.
 
 너무 어려운 문제였다 ... 26번째 줄은 아직 잘 모르겠다. 복습 많이 해야겠다.
-
 [순열과 조합](https://jun-choi-4928.medium.com/javascript%EB%A1%9C-%EC%88%9C%EC%97%B4%EA%B3%BC-%EC%A1%B0%ED%95%A9-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0-21df4b536349)
+
+
+
+### 2021.11.30
+
+- [시저 암호](../master/Programmers/시저암호/index.js)
+
+아스키 코드값을 이용하였다. map을 이용하여 v값이 공백이라면 공백을 반환하였고 v를 대문자로 변화 시킨 값이 90을 넘는다면 Z가 넘기 때문에 다시 A부터 돌아가게 하였다. 26을 뺀 이유는 알파벳 개수가 26개이기 때문에 A로 돌아가기위해 26을 빼주었다.
+
+
+[toUpperCase()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase)메소드는 문자열을 대문자로 변환해 반환한다.
+[charCodeAt()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String/charCodeAt)메소드는 문자의 아스키코드 값을 반환해주고 [String.fromCharCode()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String/fromCharCode)메소드는 아스키코드 숫자의 문자를 반환한다.
+
+[518일](https://kwiki.devserum.com/ko/articles/tech-articles/2021-05-31-518-consecutive-days-algorithm-challenge?fbclid=IwAR1zkm33drSs3udsogwwOKHgMDkK0T_PVOe-SB2V6r5O0Vv0C63UOtYtj6c)
+
+
+
+- [이상한 문자 만들기](../master/Programmers/이상한문자만들기/index.js)
+
+[toLowerCase()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase)메소드는 문자열을 소문자로 변환, toUpperCase()는 대문자로 변환한다. 이를 이용하여 짝수일 경우 대문자 아닐 경우 소문자로 변환하여 빈 문자열에 더해 반환하였다.
+
+
