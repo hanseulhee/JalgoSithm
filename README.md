@@ -472,3 +472,11 @@ shift로 맨앞의 요소를 빼낸 후 빼낸 요소가 max와 같다면 cnt를
 [toLowerCase()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase)메소드는 문자열을 소문자로 변환, toUpperCase()는 대문자로 변환한다. 이를 이용하여 짝수일 경우 대문자 아닐 경우 소문자로 변환하여 빈 문자열에 더해 반환하였다.
 
 
+
+### 2021.12.01
+
+- [H-Index](../master/Programmers/H-Index/index.js)
+
+n회 이상 인용된 논문이 n개 이상일 때 n의 최대값을 구하는 문제, 자신의 인용횟수가 자신보다 인용 횟수가 많은 논문 수와 같아질 때의 answer를 반환한다.
+
+[H-지수(H-Index)란 무엇인가?](https://www.ibric.org/myboard/read.php?Board=news&id=270333)
