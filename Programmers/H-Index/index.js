@@ -6,5 +6,3 @@ function solution(citations) {
   }
   return answer;
 }
-
-solution([3, 0, 6, 1, 5]);
