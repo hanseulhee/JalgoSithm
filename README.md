@@ -252,6 +252,13 @@ for문을 이용해 count의 길이만큼 i를 price에 곱해 배열에 push하
 빈 배열을 만들고 빈 배열에 arr 배열 값을 넣을 때마다 중복된 값인지 확인하는 코드를 짜려 했지만 어려웠다 ...
 [filter](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/filter) 메소드를 이용해 현재 인덱스의 요소와 다음 인덱스의 요소가 다르면 새로운 배열에 추가해 새로운 배열의 형태로 반환하였다.
 
+
+👁‍🗨 2021.12.29
+
+
+filter가 생각나지 않았다 .. for문을 이용해 arr[i]가 다음 값과 다르다면 answer에 push하여 반환하였다.
+
+
 ### 2021.08.31
 
 - [가운데 글자 가져오기](../master/Programmers/가운데글자가져오기/index.js)
