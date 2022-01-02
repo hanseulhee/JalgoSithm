@@ -265,6 +265,12 @@ filter가 생각나지 않았다 .. for문을 이용해 arr[i]가 다음 값과 
 
 삼항연산자를 이용해 길이가 짝수일 경우 홀수일 경우를 나누어 slice로 계산해주었다. [Destructuring](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)을 이용해 코드의 가독성을 높였다.
 
+
+👁‍🗨 2022.01.02
+
+짝수일 경우, 홀수일 경우를 나누어 계산하였다. 홀수일 경우 s.length / 2를 하면 소수점이 나와서 [Math.floor()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Math/floor)를 이용해 반내림을 해주었다.
+
+
 ### 2021.09.01
 
 - [콜라츠 추측](../master/Programmers/콜라츠추측/index.js)
