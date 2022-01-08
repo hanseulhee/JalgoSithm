@@ -2,6 +2,9 @@
 
 ✏ Algorithm with JavaScript
 
+
+## [Programmers](https://programmers.co.kr/learn/challenges)
+
 ### 2021.08.16
 
 - [자릿수 더하기](../master/Programmers/자릿수더하기/index.js)
@@ -542,3 +545,31 @@ split를 이용하여 배열에 저장 후 Math.min, Math.max로 최솟값, 최�
 
 스택 문제, 배열에 수를 넣으면서 다음 수가 기존의 수와 비교하였을 때 더 크다면 이전 수를 삭제하고 현재 수를 넣는 방식을 이용하였다.
 [참고](https://taesung1993.tistory.com/46)
+
+
+
+---
+
+## Code Festival Javascript
+
+초급 30문제 👉 중급 50문제 👉 고급 20문제 👉 별도 5문제
+
+
+### 2022.01.08
+
+- [배열의 삭제](../master/JS100/배열의삭제/index.js)
+
+pop을 이용해 배열의 요소를 삭제하였다.
+
+
+- [배열의 내장함수](../master/JS100/배열의내장함수/index.js)
+
+[splice()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/splice)는 배열의 기존 요소를 삭제 또는 교체하거나 새 요소를 추가하여 배열의 내용을 변경하는 메소드다. 
+
+```js
+arr.splice(2, 0, 10000)
+```
+
+arr[2]인 위치에 아무것도 (0) 삭제하지 않고 10000을 추가하였다.
+
+[Slice vs Splice vs Split in Javascript](https://medium.com/@anupamroy8/slice-vs-splice-vs-split-in-javascript-344c41cb94a5)
