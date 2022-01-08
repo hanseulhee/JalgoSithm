@@ -573,3 +573,14 @@ arr.splice(2, 0, 10000)
 arr[2]인 위치에 아무것도 (0) 삭제하지 않고 10000을 추가하였다.
 
 [Slice vs Splice vs Split in Javascript](https://medium.com/@anupamroy8/slice-vs-splice-vs-split-in-javascript-344c41cb94a5)
+
+
+- [변수의 타입](../master/JS100/변수의타입/index.js)
+
+undefined, string, number은 모두 기본 타입(primitive type)이지만 object는 참조 타입형이다. 
+
+기본 타입에는 7가지(Boolean, null, undefined, number, string, symbol, BigInt)가 있고 이외에는 모두 참조 타입형이다. 참조 타입형엔 함수와 배열 등이 포함된다. 기본 타입은 참조 타입과 다르게 값 자체가 메모리에 저장된다.
+
+[자바스크립트 개발자가 알아야 하는 기본 자료형](https://overcome-the-limits.tistory.com/entry/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EA%B0%9C%EB%B0%9C%EC%9E%90%EA%B0%80-%EC%95%8C%EC%95%84%EC%95%BC-%ED%95%98%EB%8A%94-33%EA%B0%80%EC%A7%80-2-%EC%9B%90%EC%8B%9C%EC%9E%90%EB%A3%8C%ED%98%95)
+
+
