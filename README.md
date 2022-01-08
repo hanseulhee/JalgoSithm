@@ -584,3 +584,19 @@ undefined, string, number은 모두 기본 타입(primitive type)이지만 objec
 [자바스크립트 개발자가 알아야 하는 기본 자료형](https://overcome-the-limits.tistory.com/entry/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EA%B0%9C%EB%B0%9C%EC%9E%90%EA%B0%80-%EC%95%8C%EC%95%84%EC%95%BC-%ED%95%98%EB%8A%94-33%EA%B0%80%EC%A7%80-2-%EC%9B%90%EC%8B%9C%EC%9E%90%EB%A3%8C%ED%98%95)
 
 
+
+### 2022.01.09
+
+- [변수의 타입2](../master/JS100/변수의타입2/index.js)
+
+number가 맞는 출력 값이다. boolean에 해당하는 값은 true 와 false 두 가지다.
+
+
+- [for문 계산](../master/JS100/for문계산/index.js)
+
+for문 조건에 따라 계산하면 for문은 총 두 번 순환하고 16을 반환한다.
+
+
+- [False](../master/JS100/False/index.js)
+
+JavaScript에서 null, undefined, 0, 빈 문자열(""), NaN, false를 제외하고는 모두 참인 값으로 평가한다.
