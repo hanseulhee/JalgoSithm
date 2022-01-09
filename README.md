@@ -2,7 +2,6 @@
 
 ✏ Algorithm with JavaScript
 
-
 ## [Programmers](https://programmers.co.kr/learn/challenges)
 
 ### 2021.08.16
@@ -12,28 +11,22 @@
 split는 문자열만 가능하다. 정수형을 [toString](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Number/toString)을 이용해 문자열로 변경 후 split로 쪼갰다.
 덧셈을 하기 위해 [map](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/map)메소드로 정수형 변환을 하였고 마지막으로 reduce를 이용해 모든 수를 더했다.
 
-
 👁‍🗨 2021.11.24
 
 문자열로 변환하는 여러 방법이 있지만 String 함수와 toString 함수의 차이점을 알아보았다.
 
-
 **String vs toString**
-
 
 두 함수 모두 주어진 인자를 문자열로 형변환하여 반환한다.
 
 String() 함수는 new 키워드와 함께 새로운 문자열 객체의 생성자가 될 수 있다.
 toString 함수는 문자열의 메소드로 사용될 경우 valueOf 와 동일한 역할을 수행하고 숫자의 메소드로 사용될 경우에는 인자로 2 ~ 36 사이의 값을 대입하면 숫자를 해당 진수로 변환한 문자열을 얻을 수 있다.
 
-
 목적에 따라 다른 기능을 수행할 수 있을 것같다.
-
 
 **문자열 배열을 정수 배열로 변환**
 
 전에는 map과 parseInt로 풀었는데 map(Number)코드로 변환할 수 있었다.
-
 
 ### 2021.08.17
 
@@ -41,32 +34,29 @@ toString 함수는 문자열의 메소드로 사용될 경우 valueOf 와 동일
 
 if문으로 짝수 홀수를 구분하였고 이에 맞는 메세지를 반환시켰다.
 
-
 👁‍🗨 2021.11.24
 
 삼항연산자를 통해 한 줄로 풀 수 있었다.
 == 과 === 의 차이를 찾아보았다.
-
 
 **== vs ===**
 
 동등 연산자(==)는 두 피연산자의 자료형을 일치시킨 후 비교를 수행한다.
 
 ```js
-1 == 1 // true
-"1" == 1 // true
-1 == "1" // true
+1 == 1; // true
+"1" == 1; // true
+1 == "1"; // true
 ```
 
 일치 연산자(===)는 자료형 변환없이 두 피연산자가 같은지 판별한다.
 
 ```js
-1 === 1 // true
-"1" === 1 // false
+1 === 1; // true
+"1" === 1; // false
 ```
 
 따라서 ==는 변수 값을 기반으로 비교하지만 ===는 변수 유형을 고려해 비교한다.
-
 
 ### 2021.08.18
 
@@ -74,16 +64,17 @@ if문으로 짝수 홀수를 구분하였고 이에 맞는 메세지를 반환�
 
 [reduce](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce)를 이용하여 배열의 합을 구하고 배열의 길이로 나누어 평균을 구했다. reduce는 배열의 각 요소에 대해 주어진 reducer 함수를 실행하고, 하나의 결과값을 반환한다.
 
-
 👁‍🗨 2021.11.25
 
 **reduce**
 
 ```js
-배열.reduce((누적값, 현잿값, 인덱스, 요소) => { return 결과}, 초깃값);
+배열.reduce((누적값, 현잿값, 인덱스, 요소) => {
+  return 결과;
+}, 초깃값);
 ```
-누적값이기 때문에 reduce 메서드로 배열의 합과 관련된 문제에 많이 쓰인다.
 
+누적값이기 때문에 reduce 메서드로 배열의 합과 관련된 문제에 많이 쓰인다.
 
 **callback 함수**
 
@@ -91,11 +82,9 @@ if문으로 짝수 홀수를 구분하였고 이에 맞는 메세지를 반환�
 
 즉 어떤 일을 다른 객체에게 시키고, 그 일이 끝나는 것은 기다리지 않고 끝나고 부를 때까지 다른 일을 하는 것 (비동기식 처리방법)
 
-
 - 문제점
 
 콜백 함수를 많이 중첩하게 되면 코드의 들여쓰기 수준 감당이 어려워지고 코드 가독성이 떨어져 콜백 지옥에 빠질 수 있다. 이러한 점들로 Promise나 async/await 등을 이용하는 방법으로 대체되고 있다.
-
 
 **비동기**
 
@@ -105,16 +94,13 @@ if문으로 짝수 홀수를 구분하였고 이에 맞는 메세지를 반환�
 
 - [핸드폰 번호 가리기](../master/Programmers/핸드폰번호가리기/index.js)
 
-[repeat](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String/repeat)메소드를 이용해 문자열 길이의 4를 뺀 만큼 *를 반복했고 [slice](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String/slice)로 뒤에서 4자리 문자열을 가져와 반환하였다.
-
-
+[repeat](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String/repeat)메소드를 이용해 문자열 길이의 4를 뺀 만큼 \*를 반복했고 [slice](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String/slice)로 뒤에서 4자리 문자열을 가져와 반환하였다.
 
 👁‍🗨 2021.11.26
 
-*을 phone_number 뒤에서 4자리 전까지 반복 후 뒤에 phone_number 뒤에서 4자리 문자열을 붙여 반환하였다.
+\*을 phone_number 뒤에서 4자리 전까지 반복 후 뒤에 phone_number 뒤에서 4자리 문자열을 붙여 반환하였다.
 
 [slice vs substring](https://velog.io/@seulhyi/javascript%EC%9D%98-substring-VS-slice)
-
 
 ### 2021.08.20
 
@@ -122,13 +108,10 @@ if문으로 짝수 홀수를 구분하였고 이에 맞는 메세지를 반환�
 
 [Number](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Number)은 숫자 형식으로 변환하는 함수다. 이를 이용해 마지막에 문자형이 아닌 정수형으로 반환하였다. toString로 정수형을 문자형으로 바꿔주고 [split]()로 하나씩 잘라 배열로 만들었다. [sort](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)로 정렬했고 reverse로 내림차순으로 만들었다.
 
-
 👁‍🗨 2021.11.26
 
 sort로 내림차순 정렬을 하였다.
 [join](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/join) 메소드는 배열의 모든 요소를 연결해 하나의 문자열로 만든다.
-
-
 
 ### 2021.08.21
 
@@ -136,13 +119,11 @@ sort로 내림차순 정렬을 하였다.
 
 repeat 메소드를 이용해 가로 별을 찍었고 마지막에 줄 바꿈도 하도록 했다. 이를 큰 가로로 묶어 세로 길이를 곱했다.
 
-
 ### 2021.08.22
 
 - [나누어 떨어지는 숫자 배열](../master/Programmers/나누어떨어지는숫자배열/index.js)
 
 [filter](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)를 이용해 arr 배열의 요소가 divisor로 나누어떨어지는지 계산해 새로운 배열로 반환하였다. 새로 반환한 배열을 [sort](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)로 오름차순 정렬했다. [삼항 조건 연산자](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)를 이용해 0이 아닐 경우 -1을 반환하도록 하였다.
-
 
 👁‍🗨 2021.11.27
 
@@ -150,13 +131,10 @@ filter로 풀었기 때문에 map을 이용해 풀려했으나 map은 계산식�
 
 filter는 배열 각 요소에 대해 주어진 함수의 결과값이 true인 요소만 모아 새로운 배열을 반환하기 때문에 map과 다른 점이 있었다.
 
-
 **map vs forEach**
-
 
 map은 새로운 배열을 반환하지만 forEach는 array를 결과로 가지기 위해서 push를 통해 배열을 만들어줘야한다.
 배열을 순회하려면 forEach, 배열을 순회 후 새 배열을 얻고 싶다면 map을 사용한다고 생각하면 될 것 같다.
-
 
 ### 2021.08.23
 
@@ -164,11 +142,9 @@ map은 새로운 배열을 반환하지만 forEach는 array를 결과로 가지�
 
 문자를 큰 것부터 작은 순으로 정렬하는 문제, sort와 reverse 메소드를 이용해 내림차순으로 정렬했고 join으로 문자열로 바꾸어 반환하였다. sort 메소드는 대문자 소문자 별로 정렬시킨다.
 
-
 👁‍🗨 2021.11.27
 
 sort 메소드를 써 대문자가 소문자보다 더 작은 것으로 간주할 수 있다.
-
 
 ### 2021.08.24
 
@@ -176,22 +152,17 @@ sort 메소드를 써 대문자가 소문자보다 더 작은 것으로 간주�
 
 [Math.min](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Math/min) 함수를 이용해 arr 배열의 제일 작은 수를 구하고 [indexOf](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf)로 해당 배열의 값을 찾았다. [splice](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/splice)를 이용헤 제일 작은 수 를 제거한 배열을 반환하였다.
 
-
 👁‍🗨 2021.11.27
 
 arr의 길이가 1일경우 [-1]을 반환하고 아니라면 filter을 이용해 배열에서 최솟값을 제외한 배열을 반환하였다.
 
-
 **배열 최솟값 구하기**
 
-
 for문도 있으나 [Math.min()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Math/min)으로 쉽게 구할 수 있다.
-
 
 **splice vs slice**
 
 slice는 원본 배열을 수정하지 않고 새로운 배열을 만드는 것과 다르게 splice는 원본 배열 자체를 수정한다.
-
 
 ### 2021.08.25
 
@@ -199,34 +170,31 @@ slice는 원본 배열을 수정하지 않고 새로운 배열을 만드는 것�
 
 배열을 만들고 for문을 이용해 n의 길이만큼 각 요소를 돌며 i를 증가시켰다. 그 다음 [push](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/push) 메소드로 배열에 요소를 추가하여 반환하였다.
 
-
 👁‍🗨 2021.11.28
 
 [Array](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/Array)를 이용해 n길이만큼의 배열을 생성 후 fill을 이용하여 x로 배열을 채웠다. 이후 map을 이용하여 계산 후 반환하였다.
 
 index는 0부터 시작한다.
+
 ```js
 function solution(x, n) {
   return Array(n)
     .fill(x)
-    .map((v, index) => v * (index + 1)); 
+    .map((v, index) => v * (index + 1));
 }
 ```
 
 
 **fill**
 
-
 fill 메소드는 배열의 시작 인덱스부터 끝 인덱스의 이전까지 정적인 값 하나로 채우는 메소드다.
 만약 m개의 길이만큼의 배열을 n으로 시작하는 값으로 채우고 싶다면 fill 메소드를 생각하면 될 것같다.
-
 
 ### 2021.08.26
 
 - [부족한 금액 계산하기](../master/Programmers/부족한금액계산하기/index.js)
 
 for문을 이용해 count의 길이만큼 i를 price에 곱해 배열에 push하였다. sum 변수에 reduce로 원소들을 더했다. 이후 if문을 이용해 돈이 sum 보다 많을 경우와 아닐 경우를 구분해 반환하였다. +[Math.abs](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Math/abs)함수는 주어진 숫자의 절대값을 반환한다.
-
 
 ### 2021.08.27
 
@@ -255,12 +223,9 @@ for문을 이용해 count의 길이만큼 i를 price에 곱해 배열에 push하
 빈 배열을 만들고 빈 배열에 arr 배열 값을 넣을 때마다 중복된 값인지 확인하는 코드를 짜려 했지만 어려웠다 ...
 [filter](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/filter) 메소드를 이용해 현재 인덱스의 요소와 다음 인덱스의 요소가 다르면 새로운 배열에 추가해 새로운 배열의 형태로 반환하였다.
 
-
 👁‍🗨 2021.12.29
 
-
 filter가 생각나지 않았다 .. for문을 이용해 arr[i]가 다음 값과 다르다면 answer에 push하여 반환하였다.
-
 
 ### 2021.08.31
 
@@ -268,11 +233,9 @@ filter가 생각나지 않았다 .. for문을 이용해 arr[i]가 다음 값과 
 
 삼항연산자를 이용해 길이가 짝수일 경우 홀수일 경우를 나누어 slice로 계산해주었다. [Destructuring](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)을 이용해 코드의 가독성을 높였다.
 
-
 👁‍🗨 2022.01.02
 
 짝수일 경우, 홀수일 경우를 나누어 계산하였다. 홀수일 경우 s.length / 2를 하면 소수점이 나와서 [Math.floor()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Math/floor)를 이용해 반내림을 해주었다.
-
 
 ### 2021.09.01
 
@@ -280,11 +243,9 @@ filter가 생각나지 않았다 .. for문을 이용해 arr[i]가 다음 값과 
 
 주어진 변수 n을 tempN에 할당 후, while문을 이용해 tempN이 1이될 때 까지 반복하도록 하였다. 삼항연산자를 이용해 짝수, 홀수의 경우를 나누고 while을 돌면서 count 변수에 1을 더해주었다. 만약 count가 500이 넘으면 -1을 반환하도록 하였다.
 
-
 👁‍🗨 2022.01.05
 
-반복횟수가 500을 넘었다면 -1을 반환하고 아닐 경우 짝수일 경우 num / 2, 홀수일 경우 num*3+1을 수행하여 num에 저장한다. answer에 1씩 올리며 반복문을 진행한다.
-
+반복횟수가 500을 넘었다면 -1을 반환하고 아닐 경우 짝수일 경우 num / 2, 홀수일 경우 num\*3+1을 수행하여 num에 저장한다. answer에 1씩 올리며 반복문을 진행한다.
 
 ### 2021.09.02
 
@@ -430,13 +391,11 @@ a,b < 0 이면 a를 b보다 작은 인덱스로 정렬, a,b === 0 이면 a와 b�
 
 유클리드 호제법을 이용하여 풀었다. 최소공배수는 두 수를 곱한 후 최대공약수로 나누어 구했다.
 
-
 ### 2021.11.08
 
 - [가장 큰 수](../master/Programmers/가장큰수/index.js)
 
 [map](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/map)을 이용해 문자열로 변환하였고 sort를 이용해 수가 큰 순으로 정렬하였다. b+a, a+b를 써 문자열로 수를 비교하였다. 이후 join으로 문자열을 합하여 가장 큰 수를 구했다. 0만 있는 경우 예외처리가 필요해 삼항연산자로 풀어 반환하였다.
-
 
 ### 2021.11.11
 
@@ -444,13 +403,11 @@ a,b < 0 이면 a를 b보다 작은 인덱스로 정렬, a,b === 0 이면 a와 b�
 
 while문과 if문으로 조건을 두고 조건 충족 시 [shift](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/shift)로 하나씩 없애 만들어진 answer을 반환하였다.
 
-
 ### 2021.11.14
 
 - [타겟 넘버](../master/Programmers/타겟넘버/index.js)
 
 깊이/너비 우선 탐색 문제, +인 경우를 모두 탐색 후 -인 경우를 탐색하였다. 재귀함수를 사용할 때에는 모든 함수가 끝난 후 실행이 되어야한다.
-
 
 ### 2021.11.22
 
@@ -460,9 +417,7 @@ while문과 if문으로 조건을 두고 조건 충족 시 [shift](https://devel
 
 Math.max()를 이용해 매개변수들의 최대값을 구할 수 있다. [apply()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Function/apply)메소드는 this와 배열로 제공되는 arguments로 함수를 호출한다. apply의 두번째 파라미터에는 배열만 들어갈 수 있다.
 
-
 shift로 맨앞의 요소를 빼낸 후 빼낸 요소가 max와 같다면 cnt를 1 증가시키고 이 때 location이 0이 되면 cnt를 반환하였다. max와 다를 경우 배열 맨 끝에 꺼낸 요소를 추가하였다. while문을 돌면서 location 값을 1씩 감소시켰다. 이후 만약 location이 -1이 된다면 다시 배열의 끝으로 보냈다.
-
 
 ### 2021.11.29
 
@@ -473,27 +428,20 @@ shift로 맨앞의 요소를 빼낸 후 빼낸 요소가 max와 같다면 cnt를
 너무 어려운 문제였다 ... 26번째 줄은 아직 잘 모르겠다. 복습 많이 해야겠다.
 [순열과 조합](https://jun-choi-4928.medium.com/javascript%EB%A1%9C-%EC%88%9C%EC%97%B4%EA%B3%BC-%EC%A1%B0%ED%95%A9-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0-21df4b536349)
 
-
-
 ### 2021.11.30
 
 - [시저 암호](../master/Programmers/시저암호/index.js)
 
 아스키 코드값을 이용하였다. map을 이용하여 v값이 공백이라면 공백을 반환하였고 v를 대문자로 변화 시킨 값이 90을 넘는다면 Z가 넘기 때문에 다시 A부터 돌아가게 하였다. 26을 뺀 이유는 알파벳 개수가 26개이기 때문에 A로 돌아가기위해 26을 빼주었다.
 
-
 [toUpperCase()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase)메소드는 문자열을 대문자로 변환해 반환한다.
 [charCodeAt()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String/charCodeAt)메소드는 문자의 아스키코드 값을 반환해주고 [String.fromCharCode()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String/fromCharCode)메소드는 아스키코드 숫자의 문자를 반환한다.
 
 [518일](https://kwiki.devserum.com/ko/articles/tech-articles/2021-05-31-518-consecutive-days-algorithm-challenge?fbclid=IwAR1zkm33drSs3udsogwwOKHgMDkK0T_PVOe-SB2V6r5O0Vv0C63UOtYtj6c)
 
-
-
 - [이상한 문자 만들기](../master/Programmers/이상한문자만들기/index.js)
 
 [toLowerCase()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase)메소드는 문자열을 소문자로 변환, toUpperCase()는 대문자로 변환한다. 이를 이용하여 짝수일 경우 대문자 아닐 경우 소문자로 변환하여 빈 문자열에 더해 반환하였다.
-
-
 
 ### 2021.12.01
 
@@ -503,14 +451,11 @@ n회 이상 인용된 논문이 n개 이상일 때 n의 최대값을 구하는 �
 
 [H-지수(H-Index)란 무엇인가?](https://www.ibric.org/myboard/read.php?Board=news&id=270333)
 
-
 ### 2021.12.04
 
 - [카펫](../master/Programmers/카펫/index.js)
 
-카펫의 최소 높이가 3인 점을 이용하였고 나머지가 0일 경우 (가로 - 2) * (세로 - 2)가 노란색이라면 답을 반환한다.
-
-
+카펫의 최소 높이가 3인 점을 이용하였고 나머지가 0일 경우 (가로 - 2) \* (세로 - 2)가 노란색이라면 답을 반환한다.
 
 ### 2021.12.11
 
@@ -518,14 +463,11 @@ n회 이상 인용된 논문이 n개 이상일 때 n의 최대값을 구하는 �
 
 split를 이용하여 배열에 저장 후 Math.min, Math.max로 최솟값, 최댓값을 구했다. 이를 정리해 한 줄로 문제를 풀 수 있었다.
 
-
-
 ### 2021.12.12
 
 - [124 나라의 숫자](../master/Programmers/124나라의숫자/index.js)
 
 1, 2, 4 총 3개의 숫자를 순환하면서 반환하도록 하였다. 3으로 나누어 나머지 숫자가 1인 경우 1, 2인 경우 2, 0인 경우 4로 변환되는 패턴이다.
-
 
 ### 2021.12.24
 
@@ -533,11 +475,9 @@ split를 이용하여 배열에 저장 후 Math.min, Math.max로 최솟값, 최�
 
 해시문제, 아무것도 착용하지 않은 경우는 없기 때문에 answer-1을 반환하였다.
 
-
 👁‍🗨 2022.01.05
 
 이 문제만 반복해서 풀었다.
-
 
 ### 2022.01.07
 
@@ -546,9 +486,8 @@ split를 이용하여 배열에 저장 후 Math.min, Math.max로 최솟값, 최�
 스택 문제, 배열에 수를 넣으면서 다음 수가 기존의 수와 비교하였을 때 더 크다면 이전 수를 삭제하고 현재 수를 넣는 방식을 이용하였다.
 [참고](https://taesung1993.tistory.com/46)
 
-
-
 ---
+
 
 ## Code Festival Javascript
 
@@ -561,14 +500,15 @@ split를 이용하여 배열에 저장 후 Math.min, Math.max로 최솟값, 최�
 
 pop을 이용해 배열의 요소를 삭제하였다.
 
-
 - [배열의 내장함수](../master/JS100/배열의내장함수/index.js)
 
-[splice()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/splice)는 배열의 기존 요소를 삭제 또는 교체하거나 새 요소를 추가하여 배열의 내용을 변경하는 메소드다. 
+[splice()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/splice)는 배열의 기존 요소를 삭제 또는 교체하거나 새 요소를 추가하여 배열의 내용을 변경하는 메소드다.
+
 
 ```js
-arr.splice(2, 0, 10000)
+arr.splice(2, 0, 10000);
 ```
+
 
 arr[2]인 위치에 아무것도 (0) 삭제하지 않고 10000을 추가하였다.
 
@@ -577,9 +517,10 @@ arr[2]인 위치에 아무것도 (0) 삭제하지 않고 10000을 추가하였�
 
 - [변수의 타입](../master/JS100/변수의타입/index.js)
 
-undefined, string, number은 모두 기본 타입(primitive type)이지만 object는 참조 타입형이다. 
+undefined, string, number은 모두 기본 타입(primitive type)이지만 object는 참조 타입형이다.
 
 기본 타입에는 7가지(Boolean, null, undefined, number, string, symbol, BigInt)가 있고 이외에는 모두 참조 타입형이다. 참조 타입형엔 함수와 배열 등이 포함된다. 기본 타입은 참조 타입과 다르게 값 자체가 메모리에 저장된다.
+
 
 [자바스크립트 개발자가 알아야 하는 기본 자료형](https://overcome-the-limits.tistory.com/entry/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EA%B0%9C%EB%B0%9C%EC%9E%90%EA%B0%80-%EC%95%8C%EC%95%84%EC%95%BC-%ED%95%98%EB%8A%94-33%EA%B0%80%EC%A7%80-2-%EC%9B%90%EC%8B%9C%EC%9E%90%EB%A3%8C%ED%98%95)
 
@@ -591,12 +532,30 @@ undefined, string, number은 모두 기본 타입(primitive type)이지만 objec
 
 number가 맞는 출력 값이다. boolean에 해당하는 값은 true 와 false 두 가지다.
 
-
 - [for문 계산](../master/JS100/for문계산/index.js)
 
 for문 조건에 따라 계산하면 for문은 총 두 번 순환하고 16을 반환한다.
 
-
 - [False](../master/JS100/False/index.js)
 
 JavaScript에서 null, undefined, 0, 빈 문자열(""), NaN, false를 제외하고는 모두 참인 값으로 평가한다.
+
+
+### 2022.01.10
+
+- [변수명](../master/JS100/변수명/index.js)
+
+*age와 1age인줄 알았는데 답은 let, 1age였다. JavaScript 식별자는 문자, 밑줄 혹은 달러 기호($)로 시작해야하며 let은 이미 JavaScript 문법에 존재하는 예약어라 사용이 불가하다. 변수명에 처음 올 수 있는 것은 문자, $ , *이다.
+
+- [객체의 키 이름 중복](../master/JS100/객체의키이름중복/index.js)
+
+키가 중복되었을 경우, 마지막 키의 값을 가져온다.
+
+- [concat을 활용한 출력 방법](../master/JS100/concat/index.js)
+
+concat 메소드는 인자로 전달되는 값들을 기존 배열에 합쳐서 새 배열을 반환해주는 배열의 메소드다. 만약 파라미터로 전달되는 인자 값이 배열일 경우에는 해당 배열이 펼쳐지면서 기존 배열에 합쳐진다. concat메서드는 기존의 배열에는 아무런 영향도 미치지 않는다.
+
+
+- [별 찍기](../master/JS100/별찍기/index.js)
+
+for문을 이용해서 풀었다. n을 5로 지정해 풀었는데 prompt() 함수를 사용하면 입력을 받을 수 있었다. 
