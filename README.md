@@ -567,3 +567,30 @@ for문을 이용해서 풀었다. n을 5로 지정해 풀었는데 prompt() 함�
 - [for문을 이용한 기본 활용](../master/JS100/for문기본활용/index.js)
 
 for문을 이용해 풀었다.
+
+
+### 2022.01.12
+
+- [게임 캐릭터 클래스 만들기](../master/JS100/게임캐릭터클래스만들기/index.js)
+
+constructor()은 객체의 기본 상태를 설정해주는 생성자 메서드다. 545, 210, 10이 this.health, this.mana, this.armor에 할당되고 attack()을 호출한다.
+
+
+- [몇 번째 행성인가요?](../master/JS100/몇번째행성/index.js)
+
+인덱스는 0부터 시작이므로 -1을 해주었다.
+
+
+- [3의 배수인가요?](../master/JS100/3의배수/index.js)
+
+나머지 연산자를 이용해 구할 수 있었다.
+
+
+- [자기소개](../master/JS100/자기소개/index.js)
+
+백틱안에 $와 중괄호를 이용해 name 변수 값을 넣었다. 이를 [템플릿 리터럴](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Template_literals)이라고 한다.
+
+
+- [로꾸거](../master/JS100/로꾸거/index.js)
+
+문자열을 거꾸로 출력하는 기능이 없기 때문에 문자를 쪼개 배열로 만든 후 뒤집고 다시 연결해주었다.
