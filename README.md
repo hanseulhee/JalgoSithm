@@ -594,3 +594,20 @@ constructor()은 객체의 기본 상태를 설정해주는 생성자 메서드�
 - [로꾸거](../master/JS100/로꾸거/index.js)
 
 문자열을 거꾸로 출력하는 기능이 없기 때문에 문자를 쪼개 배열로 만든 후 뒤집고 다시 연결해주었다.
+
+
+### 2022.01.13
+
+- [놀이기구 키 제한](../master/JS100/놀이기구키제한/index.js)
+
+if else문을 이용해 풀었다.
+
+
+- [평균 점수](../master/JS100/평균점수/index.js)
+
+전체 평균 점수를 구하는 문제, parseInt()함수를 이용해 10진수로 변환하였다. Math.floor 메소드를 이용해 소수점 자리를 지웠다.
+
+
+- [제곱을 구하자](../master/JS100/제곱을구하자/index.js)
+
+a의 b승을 구하는 문제, [Math.pow()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Math/pow)함수는 제곱한 값을 반환한다.
