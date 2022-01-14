@@ -611,3 +611,12 @@ if else문을 이용해 풀었다.
 - [제곱을 구하자](../master/JS100/제곱을구하자/index.js)
 
 a의 b승을 구하는 문제, [Math.pow()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Math/pow)함수는 제곱한 값을 반환한다.
+
+
+
+### 2022.01.14
+
+- [몫과 나머지](../master/JS100/몫과나머지/index.js)
+
+
+몫과 나머지를 공백으로 구분하는 문제, [Math.floor()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Math/floor)함수를 이용해 몫을 반환했다.
