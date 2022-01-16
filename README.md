@@ -620,3 +620,33 @@ a의 b승을 구하는 문제, [Math.pow()](https://developer.mozilla.org/ko/doc
 
 
 몫과 나머지를 공백으로 구분하는 문제, [Math.floor()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Math/floor)함수를 이용해 몫을 반환했다.
+
+
+### 2022.01.16
+
+- [set은 어떻게 만드나요?](../master/JS100/set/index.js)
+
+[Set](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Set)은 JavaScript의 표준내장객체 중 하나로 자료형에 관계없이 원시 값(primitive)과 객체 참조 모두 유일한 값을 저장할 수 있다. 즉 중복이 허용되지 않는 객체다.
+
+
+- [배수인지 확인하기](../master/JS100/배수인지확인하기/index.js)
+
+나머지가 0이면 배수임을 알 수 있다. &와 |은 비트연산자다.
+[&, |와 &&, ||의 차이](https://live-everyday.tistory.com/180)
+
+
+- [OX문제](../master/JS100/OX문제/index.js)
+
+출력 결과는 3.3333333333333335다. 소수점을 없애기 위해선 Math.floor()을 쓰면 된다.
+
+
+- [대문자로 바꿔주세요!](../master/JS100/대문자로바꿔주세요/index.js)
+
+toUpperCase()는 대문자로 변환하고 toLowerCase()은 소문자로 변환시켜준다.
+
+
+- [원의 넓이를 구하세요](../master/JS100/원의넓이/index.js)
+
+circle 함수에 매개변수를 전달해 풀 수 있었다.
+
+
