@@ -632,6 +632,7 @@ a의 b승을 구하는 문제, [Math.pow()](https://developer.mozilla.org/ko/doc
 - [배수인지 확인하기](../master/JS100/배수인지확인하기/index.js)
 
 나머지가 0이면 배수임을 알 수 있다. &와 |은 비트연산자다.
+
 [&, |와 &&, ||의 차이](https://live-everyday.tistory.com/180)
 
 
@@ -650,3 +651,18 @@ toUpperCase()는 대문자로 변환하고 toLowerCase()은 소문자로 변환�
 circle 함수에 매개변수를 전달해 풀 수 있었다.
 
 
+### 2022.01.17
+
+- [행성 문제2](../master/JS100/행성문제2/index.js)
+
+한글로 입력받으면 그 값을 키로 하여 값에 접근할 수 있도록 하였다.
+
+
+- [객체 만들기](../master/JS100/객체만들기/index.js)
+
+prompt는 숫자 데이터를 입력해도 문자형으로 인식하기 때문에 점수를 입력하면 문자열로 배열에 들어간다. parseInt를 이용해 정수로 바꾸어 obj객체 안에 넣었다.
+
+
+- [2-gram](../master/JS100/2-gram/index.js)
+
+문자열에서 2개의 연속된 요소를 출력하는 문제, 2개씩 출력되어야 하므로 data.length에 -1을 해주었다.
