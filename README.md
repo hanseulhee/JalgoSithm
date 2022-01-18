@@ -692,4 +692,31 @@ indexOf()를 이용해 인덱스를 반환하였다.
 slice는 배열을 복사하기 때문에 빈 값을 만들고 원래 값을 돌면서 push를 해주고, includes는 처음부터 하나하나 돌면서 값이 들어있는 지 확인하기 때문에 답은 O(1)이 아닌 O(n)이다.
 
 
-O(1)은 "빅 오 1"이라고 읽고 O(n)은 "빅 오 엔"이라고 읽는다. 
+O(1)은 "빅 오 1"이라고 읽고 O(n)은 "빅 오 엔"이라고 읽는다.
+
+
+- [문자열 만들기](../master/JS100/문자열만들기/index.js)
+
+Array.length는 배열의 길이를 반환한다.
+
+
+- [거꾸로 출력하기](../master/JS100/거꾸로출력하기/index.js)
+
+reverse를 이용해 뒤집어 출력하였다.
+
+
+- [sort 구현하기](../master/JS100/sort구현하기/index.js)
+
+함수를 만들어 풀었다. sort를 사용하지 않고 배열의 i번째가 다음 i+1보다 작다면 YES 아니라면 NO를 반환하도록 했는데 생각해보니 문제가 sort 구현하기였네
+
+
+- [Factory 함수 사용하기](../master/JS100/Factory/index.js)
+
+Math.pow()를 이용해 제곱한 값을 구했다. 함수 안에 있는 data변수는 함수가 실행될 때 값이 부여되는데 이를 클로저라고 한다. 
+
+[클로저](https://overcome-the-limits.tistory.com/entry/%ED%81%B4%EB%A1%9C%EC%A0%80%EB%9E%80)
+
+
+- [구구단 출력하기](../master/JS100/구구단/index.js)
+
+for문을 이용해 풀었다. result에 숫자마다 한 칸씩 띄어서 하기 위해 공백을 더했다.
