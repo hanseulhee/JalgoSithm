@@ -720,3 +720,11 @@ Math.pow()를 이용해 제곱한 값을 구했다. 함수 안에 있는 data변
 - [구구단 출력하기](../master/JS100/구구단/index.js)
 
 for문을 이용해 풀었다. result에 숫자마다 한 칸씩 띄어서 하기 위해 공백을 더했다.
+
+
+### 2022.01.19
+
+- [반장 선거](../master/JS100/반장선거/index.js)
+
+[for...in](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Statements/for...in)이용해 student의 길이만큼 반복을 수행하였다. result 객체에 해당 값이 있다면 값에 1을 더하고 없을 경우 키 값에 1을 추가하였다. [Object.keys()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Object/keys)메소드는 주어진 객체의 속성 이름들을 동일한 순서로 열거할 수 있는 배열을 만든다.
+
