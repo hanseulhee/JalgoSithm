@@ -728,3 +728,13 @@ for문을 이용해 풀었다. result에 숫자마다 한 칸씩 띄어서 하�
 
 [for...in](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Statements/for...in)이용해 student의 길이만큼 반복을 수행하였다. result 객체에 해당 값이 있다면 값에 1을 더하고 없을 경우 키 값에 1을 추가하였다. [Object.keys()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Object/keys)메소드는 주어진 객체의 속성 이름들을 동일한 순서로 열거할 수 있는 배열을 만든다.
 
+
+### 2022.01.27
+
+- [호준이의 아르바이트](../master/JS100/아르바이트/index.js)
+
+parseInt로 객체의 모든 부분을 숫자형으로 변경 후 sort를 이용해 정렬, pop을 이용해 배열의 마지막 값을 빼 arr 배열에 없다면 추가하는 방식으로 풀었다.
+
+- [오타 수정하기](../master/JS100/오타수정하기/index.js)
+
+[replaceAll()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replaceAll) 메소드를 이용했는데 다들 replaceAll은 없다고 생각하라한다. ..?
