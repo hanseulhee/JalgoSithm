@@ -738,3 +738,11 @@ parseInt로 객체의 모든 부분을 숫자형으로 변경 후 sort를 이용
 - [오타 수정하기](../master/JS100/오타수정하기/index.js)
 
 [replaceAll()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replaceAll) 메소드를 이용했는데 다들 replaceAll은 없다고 생각하라한다. ..?
+
+
+
+### 2022.01.28
+
+- [놀이동산에 가자](../master/JS100/놀이동산/index.js)
+
+total 변수가 제한 무게보다 작거나 같을 경우에 count 변수에 i를 할당하고 반복문이 끝나면 이를 반환하였다.
