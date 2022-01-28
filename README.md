@@ -746,3 +746,27 @@ parseInt로 객체의 모든 부분을 숫자형으로 변경 후 sort를 이용
 - [놀이동산에 가자](../master/JS100/놀이동산/index.js)
 
 total 변수가 제한 무게보다 작거나 같을 경우에 count 변수에 i를 할당하고 반복문이 끝나면 이를 반환하였다.
+
+
+
+### 2022.01.29
+
+- [소수판별](../master/JS100/소수판별/index.js)
+
+num 변수가 i로 나누어 나머지가 0이거나, num 입력 값이 1이라면 소수의 조건에 맞지 않으므로 NO를 출력하고 이외에는 YES를 출력한다.
+
+
+- [2020년](../master/JS100/2020년/index.js)
+
+[getDay()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Date/getDay)메소드를 이용해 날짜의 요일을 반환하도록 하였다.
+
+
+- [각 자리수의 합](../master/JS100/각자리수의합/index.js)
+
+입력받은 수를 10으로 나눈 나머지를 더한 후 소수점 아래는 지우고 반환하였다.
+
+
+- [getTime()함수 사용하기](../master/JS100/getTime/index.js)
+
+[getTime](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Date/getTime)메소드는 표준시에 따라 지정된 날짜의 시간에 해당하는 숫자 값을 반환한다.
+getTime에서 초(60) * 분(60) * 시간(24) * 일(365)을 곱하고, 밀리 초를 일반 초 단위로 바꾸기 위해 1000을 곱한 후 소수점 자리를 없앴다. 이후 1970을 더하면 1970년 이후로부터 지금까지 흐른 시간을 천분의 1초 단위를 구할 수 있다.
