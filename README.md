@@ -770,3 +770,10 @@ num 변수가 i로 나누어 나머지가 0이거나, num 입력 값이 1이라�
 
 [getTime](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Date/getTime)메소드는 표준시에 따라 지정된 날짜의 시간에 해당하는 숫자 값을 반환한다.
 getTime에서 초(60) * 분(60) * 시간(24) * 일(365)을 곱하고, 밀리 초를 일반 초 단위로 바꾸기 위해 1000을 곱한 후 소수점 자리를 없앴다. 이후 1970을 더하면 1970년 이후로부터 지금까지 흐른 시간을 천분의 1초 단위를 구할 수 있다.
+
+
+### 2022.01.30
+
+- [각 자리수의 합2](../master/JS100/각자리수의합2/index.js)
+
+n의 길이만큼 반복해 answer에 n의 j번째 숫자들을 모두 더한 후 반환하였다.
