@@ -777,3 +777,32 @@ getTime에서 초(60) * 분(60) * 시간(24) * 일(365)을 곱하고, 밀리 초
 - [각 자리수의 합2](../master/JS100/각자리수의합2/index.js)
 
 n의 길이만큼 반복해 answer에 n의 j번째 숫자들을 모두 더한 후 반환하였다.
+
+
+### 2022.01.31
+
+- [set 자료형의 응용](../master/JS100/set응용/index.js)
+
+size는 set 객체 내 값의 개수를 반환한다.
+for ... in은 object의 key값에 접근할 수 있지만 value 값에 접근할 수 없다. 
+
+
+- [대소문자 바꿔서 출력하기](../master/JS100/대소문자바꿔서/index.js)
+
+반복문을 돌면서 대문자라면 소문자로, 소문자라면 대문자로 바꾸어 반환하도록 하였다.
+
+
+- [최댓값 구하기](../master/JS100/최댓값구하기/index.js)
+
+map을 이용해 숫자형으로 바꾸고 sort로 오름차순 정렬 후 pop을 하여 가장 큰 숫자를 출력하였다.
+
+
+- [버블정렬 구현하기](../master/JS100/버블정렬/index.js)
+
+![omRChIeVtQY1Nodjul8eODl72eJkfbmt4t8yenImKBVvK0kTmF0xjctABnaLJIm9](https://user-images.githubusercontent.com/63100352/151797372-02677c6d-3ad1-4b43-ab64-ca56c4576201.jpg)
+
+버블정렬은 옆에 있는 원소를 하나씩 비교한다. 원소가 길어질수록 시간이 오래걸린다.
+
+
+
+중급 50문제 끝 -
