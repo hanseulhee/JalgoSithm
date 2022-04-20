@@ -486,7 +486,18 @@ split를 이용하여 배열에 저장 후 Math.min, Math.max로 최솟값, 최�
 스택 문제, 배열에 수를 넣으면서 다음 수가 기존의 수와 비교하였을 때 더 크다면 이전 수를 삭제하고 현재 수를 넣는 방식을 이용하였다.
 [참고](https://taesung1993.tistory.com/46)
 
----
+
+
+### 2022.04.20
+
+- [문자열을 정수형으로 변환하기](../master/Programmers/Practice/first/index.js)
+
+parseInt를 이용해 정수형으로 변환하였다.
+
+- [두 배열 비교 후 없는 값 반환하기](../master/Programmers/Practice/two/index.js)
+
+sort로 정렬 후 배열의 i번 째 인덱스가 같지 않으면 완주하지 못한 선수로 해당 값을 반환하였다.
+
 
 
 ## Code Festival Javascript
