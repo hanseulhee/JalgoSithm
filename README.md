@@ -2,6 +2,18 @@
 
 ✏ Algorithm with JavaScript
 
+## 목차
+
+[Programmers](#1)
+
+[Code Festival Javascript](#2)
+
+
+[Coding Test](#3)
+
+
+<div id=1></div>
+
 ## [Programmers](https://programmers.co.kr/learn/challenges)
 
 ### 2021.08.16
@@ -183,7 +195,6 @@ function solution(x, n) {
     .map((v, index) => v * (index + 1));
 }
 ```
-
 
 **fill**
 
@@ -486,8 +497,6 @@ split를 이용하여 배열에 저장 후 Math.min, Math.max로 최솟값, 최�
 스택 문제, 배열에 수를 넣으면서 다음 수가 기존의 수와 비교하였을 때 더 크다면 이전 수를 삭제하고 현재 수를 넣는 방식을 이용하였다.
 [참고](https://taesung1993.tistory.com/46)
 
-
-
 ### 2022.04.20
 
 - [문자열을 정수형으로 변환하기](../master/Programmers/Practice/first/index.js)
@@ -499,11 +508,11 @@ parseInt를 이용해 정수형으로 변환하였다.
 sort로 정렬 후 배열의 i번 째 인덱스가 같지 않으면 완주하지 못한 선수로 해당 값을 반환하였다.
 
 
+<div id=2></div>
 
 ## Code Festival Javascript
 
 초급 30문제 👉 중급 50문제 👉 고급 20문제 👉 별도 5문제
-
 
 ### 2022.01.08
 
@@ -515,16 +524,13 @@ pop을 이용해 배열의 요소를 삭제하였다.
 
 [splice()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/splice)는 배열의 기존 요소를 삭제 또는 교체하거나 새 요소를 추가하여 배열의 내용을 변경하는 메소드다.
 
-
 ```js
 arr.splice(2, 0, 10000);
 ```
 
-
 arr[2]인 위치에 아무것도 (0) 삭제하지 않고 10000을 추가하였다.
 
 [Slice vs Splice vs Split in Javascript](https://medium.com/@anupamroy8/slice-vs-splice-vs-split-in-javascript-344c41cb94a5)
-
 
 - [변수의 타입](../master/JS100/변수의타입/index.js)
 
@@ -532,10 +538,7 @@ undefined, string, number은 모두 기본 타입(primitive type)이지만 objec
 
 기본 타입에는 7가지(Boolean, null, undefined, number, string, symbol, BigInt)가 있고 이외에는 모두 참조 타입형이다. 참조 타입형엔 함수와 배열 등이 포함된다. 기본 타입은 참조 타입과 다르게 값 자체가 메모리에 저장된다.
 
-
 [자바스크립트 개발자가 알아야 하는 기본 자료형](https://overcome-the-limits.tistory.com/entry/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EA%B0%9C%EB%B0%9C%EC%9E%90%EA%B0%80-%EC%95%8C%EC%95%84%EC%95%BC-%ED%95%98%EB%8A%94-33%EA%B0%80%EC%A7%80-2-%EC%9B%90%EC%8B%9C%EC%9E%90%EB%A3%8C%ED%98%95)
-
-
 
 ### 2022.01.09
 
@@ -551,7 +554,6 @@ for문 조건에 따라 계산하면 for문은 총 두 번 순환하고 16을 �
 
 JavaScript에서 null, undefined, 0, 빈 문자열(""), NaN, false를 제외하고는 모두 참인 값으로 평가한다.
 
-
 ### 2022.01.10
 
 - [변수명](../master/JS100/변수명/index.js)
@@ -566,12 +568,9 @@ JavaScript에서 null, undefined, 0, 빈 문자열(""), NaN, false를 제외하�
 
 concat 메소드는 인자로 전달되는 값들을 기존 배열에 합쳐서 새 배열을 반환해주는 배열의 메소드다. 만약 파라미터로 전달되는 인자 값이 배열일 경우에는 해당 배열이 펼쳐지면서 기존 배열에 합쳐진다. concat메서드는 기존의 배열에는 아무런 영향도 미치지 않는다.
 
-
 - [별 찍기](../master/JS100/별찍기/index.js)
 
 for문을 이용해서 풀었다. n을 5로 지정해 풀었는데 prompt() 함수를 사용하면 입력을 받을 수 있었다.
-
-
 
 ### 2022.01.11
 
@@ -579,33 +578,27 @@ for문을 이용해서 풀었다. n을 5로 지정해 풀었는데 prompt() 함�
 
 for문을 이용해 풀었다.
 
-
 ### 2022.01.12
 
 - [게임 캐릭터 클래스 만들기](../master/JS100/게임캐릭터클래스만들기/index.js)
 
 constructor()은 객체의 기본 상태를 설정해주는 생성자 메서드다. 545, 210, 10이 this.health, this.mana, this.armor에 할당되고 attack()을 호출한다.
 
-
 - [몇 번째 행성인가요?](../master/JS100/몇번째행성/index.js)
 
 인덱스는 0부터 시작이므로 -1을 해주었다.
-
 
 - [3의 배수인가요?](../master/JS100/3의배수/index.js)
 
 나머지 연산자를 이용해 구할 수 있었다.
 
-
 - [자기소개](../master/JS100/자기소개/index.js)
 
 백틱안에 $와 중괄호를 이용해 name 변수 값을 넣었다. 이를 [템플릿 리터럴](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Template_literals)이라고 한다.
 
-
 - [로꾸거](../master/JS100/로꾸거/index.js)
 
 문자열을 거꾸로 출력하는 기능이 없기 때문에 문자를 쪼개 배열로 만든 후 뒤집고 다시 연결해주었다.
-
 
 ### 2022.01.13
 
@@ -613,25 +606,19 @@ constructor()은 객체의 기본 상태를 설정해주는 생성자 메서드�
 
 if else문을 이용해 풀었다.
 
-
 - [평균 점수](../master/JS100/평균점수/index.js)
 
 전체 평균 점수를 구하는 문제, parseInt()함수를 이용해 10진수로 변환하였다. Math.floor 메소드를 이용해 소수점 자리를 지웠다.
-
 
 - [제곱을 구하자](../master/JS100/제곱을구하자/index.js)
 
 a의 b승을 구하는 문제, [Math.pow()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Math/pow)함수는 제곱한 값을 반환한다.
 
-
-
 ### 2022.01.14
 
 - [몫과 나머지](../master/JS100/몫과나머지/index.js)
 
-
 몫과 나머지를 공백으로 구분하는 문제, [Math.floor()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Math/floor)함수를 이용해 몫을 반환했다.
-
 
 ### 2022.01.16
 
@@ -639,28 +626,23 @@ a의 b승을 구하는 문제, [Math.pow()](https://developer.mozilla.org/ko/doc
 
 [Set](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Set)은 JavaScript의 표준내장객체 중 하나로 자료형에 관계없이 원시 값(primitive)과 객체 참조 모두 유일한 값을 저장할 수 있다. 즉 중복이 허용되지 않는 객체다.
 
-
 - [배수인지 확인하기](../master/JS100/배수인지확인하기/index.js)
 
 나머지가 0이면 배수임을 알 수 있다. &와 |은 비트연산자다.
 
 [&, |와 &&, ||의 차이](https://live-everyday.tistory.com/180)
 
-
 - [OX문제](../master/JS100/OX문제/index.js)
 
 출력 결과는 3.3333333333333335다. 소수점을 없애기 위해선 Math.floor()을 쓰면 된다.
-
 
 - [대문자로 바꿔주세요!](../master/JS100/대문자로바꿔주세요/index.js)
 
 toUpperCase()는 대문자로 변환하고 toLowerCase()은 소문자로 변환시켜준다.
 
-
 - [원의 넓이를 구하세요](../master/JS100/원의넓이/index.js)
 
 circle 함수에 매개변수를 전달해 풀 수 있었다.
-
 
 ### 2022.01.17
 
@@ -668,17 +650,13 @@ circle 함수에 매개변수를 전달해 풀 수 있었다.
 
 한글로 입력받으면 그 값을 키로 하여 값에 접근할 수 있도록 하였다.
 
-
 - [객체 만들기](../master/JS100/객체만들기/index.js)
 
 prompt는 숫자 데이터를 입력해도 문자형으로 인식하기 때문에 점수를 입력하면 문자열로 배열에 들어간다. parseInt를 이용해 정수로 바꾸어 obj객체 안에 넣었다.
 
-
 - [2-gram](../master/JS100/2-gram/index.js)
 
 문자열에서 2개의 연속된 요소를 출력하는 문제, 2개씩 출력되어야 하므로 data.length에 -1을 해주었다.
-
-
 
 ### 2022.01.18
 
@@ -686,14 +664,11 @@ prompt는 숫자 데이터를 입력해도 문자형으로 인식하기 때문�
 
 삼항연산자와 toUpperCase()를 이용해 대문자인지 아닌지 판별해 반환하였다.
 
-
 - [문자열 속 문자 찾기](../master/JS100/문자열속문자찾기/index.js)
 
-indexOf()를 이용해 인덱스를 반환하였다. 
-
+indexOf()를 이용해 인덱스를 반환하였다.
 
 초급 30문제 끝 -
-
 
 - [자바스크립트 자료형의 복잡도](../master/JS100/자료형의복잡도/index.js)
 
@@ -702,43 +677,35 @@ indexOf()를 이용해 인덱스를 반환하였다.
 
 slice는 배열을 복사하기 때문에 빈 값을 만들고 원래 값을 돌면서 push를 해주고, includes는 처음부터 하나하나 돌면서 값이 들어있는 지 확인하기 때문에 답은 O(1)이 아닌 O(n)이다.
 
-
 O(1)은 "빅 오 1"이라고 읽고 O(n)은 "빅 오 엔"이라고 읽는다.
-
 
 - [문자열 만들기](../master/JS100/문자열만들기/index.js)
 
 Array.length는 배열의 길이를 반환한다.
 
-
 - [거꾸로 출력하기](../master/JS100/거꾸로출력하기/index.js)
 
 reverse를 이용해 뒤집어 출력하였다.
-
 
 - [sort 구현하기](../master/JS100/sort구현하기/index.js)
 
 함수를 만들어 풀었다. sort를 사용하지 않고 배열의 i번째가 다음 i+1보다 작다면 YES 아니라면 NO를 반환하도록 했는데 생각해보니 문제가 sort 구현하기였네
 
-
 - [Factory 함수 사용하기](../master/JS100/Factory/index.js)
 
-Math.pow()를 이용해 제곱한 값을 구했다. 함수 안에 있는 data변수는 함수가 실행될 때 값이 부여되는데 이를 클로저라고 한다. 
+Math.pow()를 이용해 제곱한 값을 구했다. 함수 안에 있는 data변수는 함수가 실행될 때 값이 부여되는데 이를 클로저라고 한다.
 
 [클로저](https://overcome-the-limits.tistory.com/entry/%ED%81%B4%EB%A1%9C%EC%A0%80%EB%9E%80)
-
 
 - [구구단 출력하기](../master/JS100/구구단/index.js)
 
 for문을 이용해 풀었다. result에 숫자마다 한 칸씩 띄어서 하기 위해 공백을 더했다.
-
 
 ### 2022.01.19
 
 - [반장 선거](../master/JS100/반장선거/index.js)
 
 [for...in](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Statements/for...in)이용해 student의 길이만큼 반복을 수행하였다. result 객체에 해당 값이 있다면 값에 1을 더하고 없을 경우 키 값에 1을 추가하였다. [Object.keys()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Object/keys)메소드는 주어진 객체의 속성 이름들을 동일한 순서로 열거할 수 있는 배열을 만든다.
-
 
 ### 2022.01.27
 
@@ -750,15 +717,11 @@ parseInt로 객체의 모든 부분을 숫자형으로 변경 후 sort를 이용
 
 [replaceAll()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replaceAll) 메소드를 이용했는데 다들 replaceAll은 없다고 생각하라한다. ..?
 
-
-
 ### 2022.01.28
 
 - [놀이동산에 가자](../master/JS100/놀이동산/index.js)
 
 total 변수가 제한 무게보다 작거나 같을 경우에 count 변수에 i를 할당하고 반복문이 끝나면 이를 반환하였다.
-
-
 
 ### 2022.01.29
 
@@ -766,22 +729,18 @@ total 변수가 제한 무게보다 작거나 같을 경우에 count 변수에 i
 
 num 변수가 i로 나누어 나머지가 0이거나, num 입력 값이 1이라면 소수의 조건에 맞지 않으므로 NO를 출력하고 이외에는 YES를 출력한다.
 
-
 - [2020년](../master/JS100/2020년/index.js)
 
 [getDay()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Date/getDay)메소드를 이용해 날짜의 요일을 반환하도록 하였다.
-
 
 - [각 자리수의 합](../master/JS100/각자리수의합/index.js)
 
 입력받은 수를 10으로 나눈 나머지를 더한 후 소수점 아래는 지우고 반환하였다.
 
-
 - [getTime()함수 사용하기](../master/JS100/getTime/index.js)
 
 [getTime](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Date/getTime)메소드는 표준시에 따라 지정된 날짜의 시간에 해당하는 숫자 값을 반환한다.
-getTime에서 초(60) * 분(60) * 시간(24) * 일(365)을 곱하고, 밀리 초를 일반 초 단위로 바꾸기 위해 1000을 곱한 후 소수점 자리를 없앴다. 이후 1970을 더하면 1970년 이후로부터 지금까지 흐른 시간을 천분의 1초 단위를 구할 수 있다.
-
+getTime에서 초(60) _ 분(60) _ 시간(24) \* 일(365)을 곱하고, 밀리 초를 일반 초 단위로 바꾸기 위해 1000을 곱한 후 소수점 자리를 없앴다. 이후 1970을 더하면 1970년 이후로부터 지금까지 흐른 시간을 천분의 1초 단위를 구할 수 있다.
 
 ### 2022.01.30
 
@@ -789,24 +748,20 @@ getTime에서 초(60) * 분(60) * 시간(24) * 일(365)을 곱하고, 밀리 초
 
 n의 길이만큼 반복해 answer에 n의 j번째 숫자들을 모두 더한 후 반환하였다.
 
-
 ### 2022.01.31
 
 - [set 자료형의 응용](../master/JS100/set응용/index.js)
 
 size는 set 객체 내 값의 개수를 반환한다.
-for ... in은 object의 key값에 접근할 수 있지만 value 값에 접근할 수 없다. 
-
+for ... in은 object의 key값에 접근할 수 있지만 value 값에 접근할 수 없다.
 
 - [대소문자 바꿔서 출력하기](../master/JS100/대소문자바꿔서/index.js)
 
 반복문을 돌면서 대문자라면 소문자로, 소문자라면 대문자로 바꾸어 반환하도록 하였다.
 
-
 - [최댓값 구하기](../master/JS100/최댓값구하기/index.js)
 
 map을 이용해 숫자형으로 바꾸고 sort로 오름차순 정렬 후 pop을 하여 가장 큰 숫자를 출력하였다.
-
 
 - [버블정렬 구현하기](../master/JS100/버블정렬/index.js)
 
@@ -814,6 +769,13 @@ map을 이용해 숫자형으로 바꾸고 sort로 오름차순 정렬 후 pop�
 
 버블정렬은 옆에 있는 원소를 하나씩 비교한다. 원소가 길어질수록 시간이 오래걸린다.
 
-
-
 중급 50문제 끝 -
+
+
+---
+
+<div id=3></div>
+
+## Coding Test
+
+[수박수박수박수박수박수?](/CodingTest/README.md)
