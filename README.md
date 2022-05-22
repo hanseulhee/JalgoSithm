@@ -8,9 +8,7 @@
 
 [Code Festival Javascript](#2)
 
-
 [Coding Test](#3)
-
 
 <div id=1></div>
 
@@ -507,7 +505,6 @@ parseInt를 이용해 정수형으로 변환하였다.
 
 sort로 정렬 후 배열의 i번 째 인덱스가 같지 않으면 완주하지 못한 선수로 해당 값을 반환하였다.
 
-
 <div id=2></div>
 
 ## Code Festival Javascript
@@ -771,7 +768,6 @@ map을 이용해 숫자형으로 바꾸고 sort로 오름차순 정렬 후 pop�
 
 중급 50문제 끝 -
 
-
 ---
 
 <div id=3></div>
@@ -780,5 +776,6 @@ map을 이용해 숫자형으로 바꾸고 sort로 오름차순 정렬 후 pop�
 
 [수박수박수박수박수박수?](/CodingTest/README.md)
 
-
 [문자열내마음대로정렬하기](/CodingTest/README.md)
+
+[문자열내림차순으로배치하기](/CodingTest/README.md)
