@@ -779,3 +779,5 @@ map을 이용해 숫자형으로 바꾸고 sort로 오름차순 정렬 후 pop�
 [문자열내마음대로정렬하기](/CodingTest/README.md)
 
 [문자열내림차순으로배치하기](/CodingTest/README.md)
+
+[K번째수](/CodingTest/README.md)
