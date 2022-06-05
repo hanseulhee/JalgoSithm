@@ -73,3 +73,11 @@ Date()를 사용하지 않고 풀어보았다. a달 전까지의 모든 달의 �
 [삼항연산자](../Programmers/%EC%9D%8C%EC%96%91%EB%8D%94%ED%95%98%EA%B8%B0/index.js) 이외에도 <b>forEach</b>를 이용하여 풀어보았다.
 
 forEach는 map과 비슷하지만 map과 다르게 forEach는 따로 return 하는 값이 없다.
+
+
+<b>2022.06.05</b>
+
+[모의고사](./%EB%AA%A8%EC%9D%98%EA%B3%A0%EC%82%AC.js)
+
+한 사람마다 문제 찍는 규칙을 배열로 정의하였고 answers 배열을 돌며 수포자의 답과 일치할 경우 score에 점수를 더하였다.
+이후 score의 최댓값을 구해 result를 반환하였다.
