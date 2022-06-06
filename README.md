@@ -787,3 +787,5 @@ map을 이용해 숫자형으로 바꾸고 sort로 오름차순 정렬 후 pop�
 [음양더하기](/CodingTest/README.md)
 
 [모의고사](/CodingTest/README.md)
+
+[문자열을정수로바꾸기](/CodingTest/README.md)

@@ -81,3 +81,13 @@ forEach는 map과 비슷하지만 map과 다르게 forEach는 따로 return 하�
 
 한 사람마다 문제 찍는 규칙을 배열로 정의하였고 answers 배열을 돌며 수포자의 답과 일치할 경우 score에 점수를 더하였다.
 이후 score의 최댓값을 구해 result를 반환하였다.
+
+
+<b>2022.06.06</b>
+
+
+[문자열을 정수로 바꾸기](./%EB%AC%B8%EC%9E%90%EC%97%B4%EC%9D%84%EC%A0%95%EC%88%98%EB%A1%9C%EB%B0%94%EA%BE%B8%EA%B8%B0.js)
+
+문자열을 정수로 변환하기 위해 Number 메소드를 사용하였다.
+
+정수 값만일 경우 parseInt 메소드도 사용할 수 있다.
