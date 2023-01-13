@@ -801,3 +801,10 @@ map을 이용해 숫자형으로 바꾸고 sort로 오름차순 정렬 후 pop�
 - [LongestCommon](../master/LeetCode/LongestCommon/index.js)
 
 - [IntegerToRoman](../master/LeetCode/IntegerToRoman/index.js)
+
+### 2023.01.12
+
+- [LargestOddNumber](../master/LeetCode/LargestOddNumber/index.js)
+
+문자열 중에서 가장 길고 홀수인 수를 반환, 아니면 빈 문자열을 반환한다.
+
