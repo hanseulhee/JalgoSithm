@@ -507,6 +507,12 @@ parseInt를 이용해 정수형으로 변환하였다.
 
 sort로 정렬 후 배열의 i번 째 인덱스가 같지 않으면 완주하지 못한 선수로 해당 값을 반환하였다.
 
+### 2023.02.11
+
+- [예산](../master/Programmers/예산/index.js)
+
+budget에 d[i]를 빼주면서 0보다 클 경우 count + 1을 해줬다.
+
 <div id=2></div>
 
 ## Code Festival Javascript
@@ -807,4 +813,3 @@ map을 이용해 숫자형으로 바꾸고 sort로 오름차순 정렬 후 pop�
 - [LargestOddNumber](../master/LeetCode/LargestOddNumber/index.js)
 
 문자열 중에서 가장 길고 홀수인 수를 반환, 아니면 빈 문자열을 반환한다.
-
