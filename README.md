@@ -819,3 +819,7 @@ map을 이용해 숫자형으로 바꾸고 sort로 오름차순 정렬 후 pop�
 <div id=5></div>
 
 ## [Baek Joon](https://www.acmicpc.net/workbook/view/4357)
+
+### 2023.03.02
+
+- [삼각형과 세 변](../master/LeetCode/5073/삼각형과세변.png)
