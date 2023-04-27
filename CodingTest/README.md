@@ -179,3 +179,9 @@ set 객체에 주어진 값이 있는 지는 has로 확인한다. (boolean)
 
 [의상](./HighScoreKit/해시/의상.js)
 
+## 완전탐색
+
+[최소 직사각형](./HighScoreKit/완전탐색/최소직사각형.js)
+
+
+[모의고사](./HighScoreKit/완전탐색/모의고사.js)
