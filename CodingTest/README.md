@@ -129,6 +129,26 @@ split(구분자)
 
 Math.ceil은 소수값이 있을 경우 값을 올림한다.
 
+[삼총사](./Level1/삼총사.js)
+
+주어진 배열에서 3개씩 뽑아서 더했을 경우 0이 되는 경우의 수를 구한다.
+
+[소수만들기](./Level1/소수만들기.js)
+
+소수는 1과 자기 자신만으로만 나누어 떨어지는 수.
+
+```javascript
+if (isPrime(sum)) {
+  answer = isPrime(sum) == true ? answer + 1 : answer;
+}
+
+//위의 함수를 아래와 같이 만들 수 있다.
+
+if (isPrime(sum)) {
+  answer++;
+}
+```
+
 ## 정렬
 
 [K번째수](./HighScoreKit/정렬/K번째수.js)
@@ -182,6 +202,5 @@ set 객체에 주어진 값이 있는 지는 has로 확인한다. (boolean)
 ## 완전탐색
 
 [최소 직사각형](./HighScoreKit/완전탐색/최소직사각형.js)
-
 
 [모의고사](./HighScoreKit/완전탐색/모의고사.js)
