@@ -816,6 +816,32 @@ map을 이용해 숫자형으로 바꾸고 sort로 오름차순 정렬 후 pop�
 
 문자열 중에서 가장 길고 홀수인 수를 반환, 아니면 빈 문자열을 반환한다.
 
+### 2023.03.23
+
+- [Running Sum of 1d Array](../master/LeetCode/RunningSum/index.js)
+
+- [Running Sum of 1d Array 다이어그램](../master/LeetCode/RunningSum/1480.png)
+
+1480번, 1부터 n까지 더하는 문제
+
+- [Find Pivot Index](../master/LeetCode/FindPivotIndex/index.js)
+
+- [Find Pivot Index 다이어그램](../master/LeetCode/FindPivotIndex/724.png)
+
+724번, 왼쪽 값들의 합과 오른쪽 값들의 합이 일치하는 pivot 인덱스를 찾는 문제
+
+### 2023.03.24
+
+- [Running Sum of 1d Array](../master/LeetCode/RunningSum/index.js)
+
+동형사상 문제, apple과 paper은 12234 12134로 동형관계가 아니고 title과 paper은 12134 12134로 동형관계이다.
+
+### 2023.03.29
+
+- [Merge Two Sorted Lists](../master/LeetCode/MergeTwoSortedLists/index.js)
+
+- [Reverse Linked List](../master/LeetCode/ReverseLinkedList/index.js)
+
 <div id=5></div>
 
 ## [Baek Joon](https://www.acmicpc.net/workbook/view/4357)
@@ -828,15 +854,13 @@ map을 이용해 숫자형으로 바꾸고 sort로 오름차순 정렬 후 pop�
 
 - [벌집](../master/BaekJoon/2292/벌집.png)
 
- 6의 배수로 늘어난다는 규칙
+6의 배수로 늘어난다는 규칙
 
 - [단어 공부](../master/BaekJoon/1157/단어공부.png)
 
 ### 2023.03.16
 
 - [돌 게임](../master/BaekJoon/9655/index.js)
-
-
 
 - [돌 게임 다이어그램](../master/BaekJoon/9655/돌게임.png)
 
