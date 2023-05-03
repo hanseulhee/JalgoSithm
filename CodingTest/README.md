@@ -204,3 +204,16 @@ set 객체에 주어진 값이 있는 지는 has로 확인한다. (boolean)
 [최소 직사각형](./HighScoreKit/완전탐색/최소직사각형.js)
 
 [모의고사](./HighScoreKit/완전탐색/모의고사.js)
+
+## 탐욕법
+
+[체육복](./HighScoreKit/탐욕법/체육복.js)
+
+`Array(n).fill(1)`
+
+n개의 원소가 담긴 새 배열을 모두 1로 채운다.
+
+`find VS filter`
+
+find는 특정 조건에 맞는 값이 나오는 첫번째 요소 값을 반환하고 filter는 특정 조건에 맞는 모든 값을 반환한다.
+
